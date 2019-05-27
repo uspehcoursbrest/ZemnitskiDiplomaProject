@@ -5,24 +5,25 @@
     <title>Главная страница</title>
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <!--Блок Хэдер-->
 <div class="header">
     <div class="wraper">
-        <div class="timeData">
-            <img src="" alt="">
-            <span>16:23:50</span>
-            <span>20 Янв 2018 Пятница</span>
+        <div class="timeData" >
+            <img src="" alt="" class="clock">
+            <span class="numb">16:23:50</span>
+            <span class="date">20 Янв 2018 Пятница</span>
         </div>
         <div class="language">
-            <img src="" alt="">
+            <img src="" alt="" class="langIcon">
             <select name="lang" id="lang">
                 <option value="RU">RU</option>
                 <option value="EN">EN</option>
             </select>
         </div>
-        <div class="social">
+        <div class="socIcon">
             <a href="#">
                 <img src="" alt=""></a>
             <a href="#">
@@ -32,14 +33,14 @@
             <a href="#">
                 <img src="" alt=""></a>
         </div>
-        <div class="phone">
-            <a href="#">
+        <div class="contact">
+            <a class="messeger" href="#">
                 <img src="" alt="">
             </a>
-            <a href="#">
+            <a class="messeger" href="#">
                 <img src="" alt="">
             </a>
-            <a href="#">+ 8 800 123-45-67</a>
+            <a class="phone" href="#">+ 8 800 123-45-67</a>
         </div>
     </div>
 </div>
@@ -50,7 +51,7 @@
             <img src="" alt="">
             <span>Trade Finance</span>
         </div>
-        <div class="menu">
+        <div class="menu activ">
             <ul>
                 <li>
                     <span>Главная</span>
@@ -83,10 +84,16 @@
         </div>
         <div class="account">
             <div class="authorization">
-                <button>Авторизация</button>
+                <button class="left">
+                    <span></span>
+                    Авторизация
+                </button>
             </div>
             <div class="register">
-                <button>Регистрация</button>
+                <button class="right">
+                    <span></span>
+                    Регистрация
+                </button>
             </div>
         </div>
         <div class="calc">
@@ -99,51 +106,51 @@
                         <span>01.</span>
                         <span>Выберите план:</span>
                     </div>
-                    <div class="percent">
+                    <div class="percent pasiv">
                         <div class="num">
                             <span>120%</span>
                         </div>
-                        <div class="text">
+                        <div class="text pasiv">
                             <span>за 180 дней</span>
                         </div>
                     </div>
-                    <div class="percent">
+                    <div class="percent activ">
                         <div class="num">
                             <span>140%</span>
                         </div>
-                        <div class="text">
+                        <div class="text activ">
                             <span>за 30 дней</span>
                         </div>
                     </div>
-                    <div class="percent">
+                    <div class="percent pasiv">
                         <div class="num">
                             <span>160%</span>
                         </div>
-                        <div class="text">
+                        <div class="text pasiv">
                             <span>за 10 недель</span>
                         </div>
                     </div>
-                    <div class="percent">
+                    <div class="percent noactiv">
                         <div class="num">
                             <span>180%</span>
                         </div>
-                        <div class="text">
+                        <div class="text noactiv">
                             <span>за 20 недель</span>
                         </div>
                     </div>
-                    <div class="percent">
+                    <div class="percent noactiv">
                         <div class="num">
                             <span>200%</span>
                         </div>
-                        <div class="text">
+                        <div class="text noactiv">
                             <span>за 30 недель</span>
                         </div>
                     </div>
-                    <div class="percent">
+                    <div class="percent noactiv">
                         <div class="num">
                             <span>220%</span>
                         </div>
-                        <div class="text">
+                        <div class="text noactiv">
                             <span>за 50 недель</span>
                         </div>
                     </div>
@@ -198,7 +205,7 @@
                             <span>8920,00$</span>
                         </div>
                     </div>
-                    <div class="button">
+                    <div class="botton">
                         <button>инвестировать</button>
                     </div>
                 </div>
@@ -277,9 +284,9 @@
             <div class="text">
                 <span>Trade Finance - это инвестиционная платформа, которая занимается торговлей криптовалюты на бирже при помощи уникальных торговых инструментов. Платформа дает возможность получения стабильного и надежного дохода для представителей компании и их партнеров.</span>
             </div>
-            <div class="button">
-                <button>Подробнее</button>
-                <button>Регистрация</button>
+            <div class="botton">
+                <button class="left">Подробнее</button>
+                <button class="right">Регистрация</button>
             </div>
         </div>
     </div>
@@ -288,13 +295,11 @@
 <div class="strategy">
     <div class="wraper">
         <div class="marker">
-            <div class="activ">
-                <span>НАША СТРАТЕГИЯ</span>
-            </div>
-            <div class="pasiv">
-                <span>НАШИ ПРЕИМУЩЕСТВА</span>
-                <span>СТАТИСТИКА ПРИБЫЛИ</span>
-            </div>
+            <ul>
+                <li class="activ">НАША СТРАТЕГИЯ</li>
+                <li class="pasiv">НАШИ ПРЕИМУЩЕСТВА</li>
+                <li class="pasiv">СТАТИСТИКА ПРИБЫЛИ</li>
+            </ul>
         </div>
         <div class="LefTtext">
             <div class="trade">
@@ -403,9 +408,7 @@
                     при выполнении определенных условий, которые описаны ниже.</p>
             </div>
         </div>
-        <div class="button">
-            <button>Присоединиться</button>
-        </div>
+        <button class="botton">Присоединиться</button>
     </div>
 </div>
 <!--Блок инструкции-->
@@ -468,7 +471,7 @@
         <div class="image">
             <img src="" alt="">
             <div class="item">
-                <div class="desc">
+                <div class="deposit">
                     <div class="text">
                         <span>Депозитов:</span>
                     </div>
@@ -478,7 +481,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="desc">
+                <div class="investors">
                     <div class="text">
                         <span>Инвесторов:</span>
                     </div>
@@ -488,7 +491,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="desc">
+                <div class="invest">
                     <div class="text">
                         <span>Инвестировано:</span>
                     </div>
@@ -498,7 +501,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="desc">
+                <div class="">
                     <div class="text">
                         <span>Выплачено:</span>
                     </div>
