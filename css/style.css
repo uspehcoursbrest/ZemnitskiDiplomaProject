@@ -1,0 +1,601 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Gotham Pro";
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.wraper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    height: 50px;
+}
+
+.baner {
+    height: 875px;
+}
+
+.rate {
+    height: 50px;
+}
+
+.promo {
+    height: 670px;
+}
+
+.strategy {
+    height: 610px;
+}
+
+.partner {
+    height: 630px;
+}
+
+.guid {
+    height: 810px;
+}
+
+.statistics {
+    height: 360px;
+}
+
+.description {
+    height: 940px;
+}
+
+.payments {
+    height: 330px;
+}
+
+.about {
+    height: 510px;
+}
+
+.footer {
+    height: 50px;
+}
+
+.icon-clock {
+    font-size: 30px;
+}
+
+.timeData .numb {
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.timeData .date {
+    font-size: 11.5px;
+    line-height: 13px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.icon-russia {
+    font-size: 30px;
+}
+
+.lang {
+    font-size: 14px;
+    line-height: 36px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.socIcon a {
+    font-size: 30px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.contact .messeger {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.contact a:nth-child(1) {
+    color: #66cccc;
+}
+
+.contact a:nth-child(2) {
+    color: #993366;
+}
+
+.contact .phone {
+    font-size: 20px;
+    line-height: 36px;
+    color: #333333;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.baner .wraper .logo span {
+    font-size: 27px;
+    height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.baner .wraper .menu {
+    font-size: 14px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.baner .wraper .activ li:nth-child(1) {
+    font-size: 14px;
+    line-height: 36px;
+    color: #66cccc;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.authorization .left {
+    font-size: 15px;
+    line-height: 27px;
+    color: #66ccff;
+    font-weight: 300;
+}
+
+.register .right {
+    font-size: 15px;
+    line-height: 27px;
+    color: #cc3366;
+    font-weight: 300;
+}
+
+.calc .text0 {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.calc .plan .text1 {
+    color: #ffffff;
+}
+
+.calc .plan .text1 span:nth-child(1) {
+    font-size: 21px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.calc .plan .text1 span:nth-child(2) {
+    font-size: 17px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.plan .pasiv .num {
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #cc3366;
+}
+
+.plan .activ .num {
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #66cccc;
+}
+
+.plan .noactiv .num {
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #333366;
+}
+
+.plan .pasiv .text {
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.plan .activ .text {
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.plan .noactiv .text {
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #cc6699;
+}
+
+.entersum input {
+    font-size: 17px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.money .text .rub, .money .text .btc {
+    font-size: 17px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+.money .text .usd {
+    font-size: 17px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.ante span {
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.ante span:nth-child(1) {
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #cc3366;
+}
+
+.text-deposit {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.profit span {
+    color: #ffffff;
+}
+
+.profit .text {
+    font-size: 14px;
+    line-height: 47px;
+    font-weight: 700;
+}
+
+.profit .num {
+    font-size: 33px;
+    line-height: 47px;
+    font-weight: 700;
+}
+
+.profit .botton button {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.rate .cours {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.rate .cours span:first-child {
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.rate .cours span:last-child {
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.icon-arrow-down {
+    color: #cc3366;
+}
+
+.icon-arrow-up {
+    color: #6699cc;
+}
+
+.promo .video span {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.promo .description h2 {
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.promo .description .subtitl {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.promo .description .text {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.promo .botton button {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.promo .botton .left {
+    color: #6699cc;
+}
+
+.promo .botton .right {
+    color: #ffffff;
+}
+
+.strategy .marker {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.strategy .marker .activ {
+    color: #333333;
+}
+
+.strategy .marker .pasiv {
+    color: #ffffff;
+}
+
+.icon-trade, .icon-company, .icon-work, .icon-target {
+    font-size: 50px;
+    color: #993366;
+}
+
+.strategy .LefTtext p {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.strategy .LefTtext p > span {
+    color: #993366;
+    font-weight: 700;
+}
+
+.strategy .RightT p {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.strategy .RightT p > span {
+    color: #993366;
+    font-weight: 700;
+}
+
+.partner h2 {
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.partner .titl span {
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.partner .point .percent {
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #66cccc;
+}
+
+.partner .point .text {
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.partner .description .text {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.partner .description .text span {
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #66cccc;
+}
+
+.partner .botton {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.guid h2 {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.guid .num {
+    font-size: 77px;
+    line-height: 62px;
+    font-weight: 700;
+    color: #66cccc;
+    text-transform: uppercase;
+}
+
+.guid h3 {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.guid .text {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.guid .text span {
+    font-weight: 700;
+    color: #993366;
+}
+
+.statistics .text {
+    font-size: 17px;
+    line-height: 46px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.statistics .num {
+    font-size: 33px;
+    line-height: 46px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.icon-deposit, .icon-investers, .icon-invest, .icon-pay {
+    font-size: 50px;
+    color: #66cccc;
+}
+
+.description .title {
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.description .title-text {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+.description .item-title {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #993366;
+    text-transform: uppercase;
+}
+.description .all .text {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+}
+.description .all .text span {
+    font-weight: 700;
+}
+.icon-license, .icon-client, .icon-circs, .icon-world, .icon-tool, .icon-comfort {
+    font-size: 50px;
+    color: #ffffff;
+}
+.about .logo span {
+    font-size: 27px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.about .address, .about .regNum, .about .company, .about .invest, .about .agent, .about .info {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.about .textAddress, .about .regNumText, .about .textCompany, .about .textInvest, .about .textAgent, .about .textInfo {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #cccccc;
+}
+.about .textInfo a:nth-child(6), .about .textInfo a:nth-child(8)  {
+    color: #66cccc;
+}
+.about .textInfo a:nth-child(2), .about .textInfo a:nth-child(4)  {
+    text-decoration: none;
+    font-weight: 500;
+}
+.about .botton button {
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #66cccc;
+}
+.footer .text {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #cccccc;
+}
+.footer .text span:nth-child(2) {
+    font-weight: 500;
+    color: #ffffff;
+}

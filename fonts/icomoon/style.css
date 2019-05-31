@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?r4kxc2');
-  src:  url('fonts/icomoon.eot?r4kxc2#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?r4kxc2') format('truetype'),
-    url('fonts/icomoon.woff?r4kxc2') format('woff'),
-    url('fonts/icomoon.svg?r4kxc2#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?gz18ow');
+  src:  url('fonts/icomoon.eot?gz18ow#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gz18ow') format('truetype'),
+    url('fonts/icomoon.woff?gz18ow') format('woff'),
+    url('fonts/icomoon.svg?gz18ow#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -44,16 +44,16 @@
 .icon-vk:before {
   content: "\e916";
 }
-.icon-youtube:before {
+.icon-yt:before {
   content: "\e917";
 }
-.icon-twitter:before {
+.icon-tw:before {
   content: "\e918";
 }
-.icon-facebook:before {
+.icon-fb:before {
   content: "\e919";
 }
-.icon-telegram:before {
+.icon-tg:before {
   content: "\e900";
 }
 .icon-viber:before {
@@ -106,4 +106,10 @@
 }
 .icon-deposit:before {
   content: "\e911";
+}
+.icon-arrow-up:before {
+  content: "\ea3a";
+}
+.icon-arrow-down:before {
+  content: "\ea3e";
 }
