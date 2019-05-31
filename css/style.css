@@ -91,6 +91,15 @@ ul {
 
 .icon-russia {
     font-size: 30px;
+    position: relative;
+}
+.icon-russia .path1 {
+    position: absolute;
+    left: -30px;
+}
+.icon-russia .path2, .icon-russia .path3 {
+    position: absolute;
+    left: 0px;
 }
 
 .lang {
@@ -531,12 +540,14 @@ h1 {
     color: #333333;
     text-transform: uppercase;
 }
+
 .description .title-text {
     font-size: 15px;
     line-height: 22px;
     font-weight: 400;
     color: #333333;
 }
+
 .description .item-title {
     font-size: 17px;
     line-height: 25px;
@@ -544,25 +555,30 @@ h1 {
     color: #993366;
     text-transform: uppercase;
 }
+
 .description .all .text {
     font-size: 15px;
     line-height: 22px;
     font-weight: 400;
     color: #666666;
 }
+
 .description .all .text span {
     font-weight: 700;
 }
+
 .icon-license, .icon-client, .icon-circs, .icon-world, .icon-tool, .icon-comfort {
     font-size: 50px;
     color: #ffffff;
 }
+
 .about .logo span {
     font-size: 27px;
     line-height: 30px;
     font-weight: 700;
     color: #ffffff;
 }
+
 .about .address, .about .regNum, .about .company, .about .invest, .about .agent, .about .info {
     font-size: 14px;
     line-height: 22px;
@@ -570,31 +586,37 @@ h1 {
     color: #ffffff;
     text-transform: uppercase;
 }
+
 .about .textAddress, .about .regNumText, .about .textCompany, .about .textInvest, .about .textAgent, .about .textInfo {
     font-size: 14px;
     line-height: 22px;
     font-weight: 300;
     color: #cccccc;
 }
-.about .textInfo a:nth-child(6), .about .textInfo a:nth-child(8)  {
+
+.about .textInfo a:nth-child(6), .about .textInfo a:nth-child(8) {
     color: #66cccc;
 }
-.about .textInfo a:nth-child(2), .about .textInfo a:nth-child(4)  {
+
+.about .textInfo a:nth-child(2), .about .textInfo a:nth-child(4) {
     text-decoration: none;
     font-weight: 500;
 }
+
 .about .botton button {
     font-size: 15px;
     line-height: 27px;
     font-weight: 300;
     color: #66cccc;
 }
+
 .footer .text {
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
     color: #cccccc;
 }
+
 .footer .text span:nth-child(2) {
     font-weight: 500;
     color: #ffffff;
