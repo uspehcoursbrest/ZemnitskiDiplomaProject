@@ -23,56 +23,13 @@ ul {
     padding: 0 15px;
 }
 
-.header {
-    height: 50px;
-}
-
-.baner {
-    height: 875px;
-}
-
-.rate {
-    height: 50px;
-}
-
-.promo {
-    height: 670px;
-}
-
-.strategy {
-    height: 610px;
-}
-
-.partner {
-    height: 630px;
-}
-
-.guid {
-    height: 810px;
-}
-
-.statistics {
-    height: 360px;
-}
-
-.description {
-    height: 940px;
-}
-
-.payments {
-    height: 330px;
-}
-
-.about {
-    height: 510px;
-}
-
-.footer {
-    height: 50px;
-}
-
 .icon-clock {
     font-size: 30px;
+}
+
+/*header*/
+.header {
+    height: 50px;
 }
 
 .timeData .numb {
@@ -93,10 +50,12 @@ ul {
     font-size: 30px;
     position: relative;
 }
+
 .icon-russia .path1 {
     position: absolute;
     left: -30px;
 }
+
 .icon-russia .path2, .icon-russia .path3 {
     position: absolute;
     left: 0px;
@@ -136,11 +95,30 @@ ul {
     text-decoration: none;
 }
 
-.baner .wraper .logo span {
+/*baner*/
+.baner {
+    background-image: url(../img/jpg/fonbanner.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.baner .logo {
+    padding: 40px 0 0 15px;
+}
+
+.baner .calc {
+    background-image: url(../img/png/foncalc.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.baner .logo span {
     font-size: 27px;
     height: 30px;
     color: #ffffff;
     font-weight: 700;
+    padding: 65px 0 0 0;
 }
 
 .baner .wraper .menu {
@@ -312,9 +290,17 @@ h1 {
     text-transform: uppercase;
 }
 
+/*rate котировки валют*/
+.rate {
+    height: 50px;
+    background-color: #13171C;
+}
+
 .rate .cours {
     font-size: 15px;
     line-height: 20px;
+    display: inline-block;
+    margin: 15px 15px;
 }
 
 .rate .cours span:first-child {
@@ -335,6 +321,22 @@ h1 {
 
 .icon-arrow-up {
     color: #6699cc;
+}
+
+/*блок promo*/
+.promo {
+    height: 725px;
+}
+
+.promo .video {
+    background-image: url(../img/png/fonvideo.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin: 0 0 0 15px;
+}
+
+.promo .video img {
+    margin: 170px 0 0 -335px;
 }
 
 .promo .video span {
@@ -379,6 +381,18 @@ h1 {
 
 .promo .botton .right {
     color: #ffffff;
+}
+
+/*блок strategy*/
+.strategy {
+    height: 560px;
+    background-color: #F2F2F2;
+}
+
+.strategy .image {
+    background-image: url(../img/png/fonlogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .strategy .marker {
@@ -431,6 +445,16 @@ h1 {
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
+}
+
+.partner {
+    height: 635px;
+}
+
+.partner .level {
+    background-image: url(../img/png/partner.png);
+    background-repeat: no-repeat;
+
 }
 
 .partner .titl span {
@@ -514,6 +538,14 @@ h1 {
     color: #993366;
 }
 
+/*блок статистики statistics*/
+.statistics {
+    height: 360px;
+    background-image: url(../img/jpg/fonStatistics.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .statistics .text {
     font-size: 17px;
     line-height: 46px;
@@ -531,6 +563,12 @@ h1 {
 .icon-deposit, .icon-investers, .icon-invest, .icon-pay {
     font-size: 50px;
     color: #66cccc;
+}
+
+/*блок описания description*/
+.description {
+    height: 790px;
+    background-color: #F2F2F2;
 }
 
 .description .title {
@@ -572,6 +610,20 @@ h1 {
     color: #ffffff;
 }
 
+/*блок платежных систем payments*/
+.payments {
+    height: 335px;
+    background-image: url(../img/png/fonPayments.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*блок about*/
+.about {
+    height: 510px;
+    background-color: #333333;
+}
+
 .about .logo span {
     font-size: 27px;
     line-height: 30px;
@@ -610,6 +662,12 @@ h1 {
     color: #66cccc;
 }
 
+/*footer*/
+.footer {
+    height: 50px;
+    background-color: #3B3F44;
+}
+
 .footer .text {
     font-size: 13px;
     line-height: 18px;
@@ -620,4 +678,162 @@ h1 {
 .footer .text span:nth-child(2) {
     font-weight: 500;
     color: #ffffff;
+}
+
+/*page OpenDeposit*/
+.headerDeposit .logo span {
+    font-size: 27px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.headerDeposit .data span:nth-child(2) {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.headerDeposit .data span:nth-child(3) {
+    font-size: 11.5px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.headerDeposit .lang select {
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.headerDeposit .contact a {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+.headerDeposit .profile {
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.headerDeposit .profile span {
+    color: #666666;
+    font-weight: 400;
+}
+
+.headerDeposit .profile a {
+    color: #993366;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ContentDeposit .left .touch {
+    font-size: 14px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.ContentDeposit footer {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #cccccc;
+}
+
+.ContentDeposit footer span:nth-child(2) {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.ContentDeposit .textRight h2 {
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.ContentDeposit .num {
+    font-size: 21px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.ContentDeposit .textNum {
+    font-size: 17px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.ContentDeposit .percent span:nth-child(1) {
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.ContentDeposit .percent span:nth-child(2) {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.ContentDeposit .value {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.ContentDeposit .day span:nth-child(1),
+.ContentDeposit .all span:nth-child(1),
+.ContentDeposit .accrued span:nth-child(1),
+.ContentDeposit .back span:nth-child(1) {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #333333;
+}
+.ContentDeposit .day span:nth-child(2),
+.ContentDeposit .all span:nth-child(2),
+.ContentDeposit .accrued span:nth-child(2),
+.ContentDeposit .back span:nth-child(2) {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #666666;
+}
+.ContentDeposit .curr span {
+    font-size: 17px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.ContentDeposit .sum input {
+    font-size: 17px;
+    line-height: 100px;
+    font-weight: 400;
+    color: #333333;
+}
+.ContentDeposit button {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #66cccc;
 }
