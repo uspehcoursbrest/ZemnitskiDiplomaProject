@@ -605,7 +605,12 @@ h1 {
     font-weight: 700;
 }
 
-.icon-license, .icon-client, .icon-circs, .icon-world, .icon-tool, .icon-comfort {
+.icon-license,
+.icon-client,
+.icon-circs,
+.icon-world,
+.icon-tool,
+.icon-comfort {
     font-size: 50px;
     color: #ffffff;
 }
@@ -631,7 +636,12 @@ h1 {
     color: #ffffff;
 }
 
-.about .address, .about .regNum, .about .company, .about .invest, .about .agent, .about .info {
+.about .address,
+.about .regNum,
+.about .company,
+.about .invest,
+.about .agent,
+.about .info {
     font-size: 14px;
     line-height: 22px;
     font-weight: 700;
@@ -639,18 +649,25 @@ h1 {
     text-transform: uppercase;
 }
 
-.about .textAddress, .about .regNumText, .about .textCompany, .about .textInvest, .about .textAgent, .about .textInfo {
+.about .textAddress,
+.about .regNumText,
+.about .textCompany,
+.about .textInvest,
+.about .textAgent,
+.about .textInfo {
     font-size: 14px;
     line-height: 22px;
     font-weight: 300;
     color: #cccccc;
 }
 
-.about .textInfo a:nth-child(6), .about .textInfo a:nth-child(8) {
+.about .textInfo a:nth-child(6),
+.about .textInfo a:nth-child(8) {
     color: #66cccc;
 }
 
-.about .textInfo a:nth-child(2), .about .textInfo a:nth-child(4) {
+.about .textInfo a:nth-child(2),
+.about .textInfo a:nth-child(4) {
     text-decoration: none;
     font-weight: 500;
 }
