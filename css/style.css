@@ -61,7 +61,7 @@ ul {
     left: 0px;
 }
 
-.lang {
+.language .lang {
     font-size: 14px;
     line-height: 36px;
     color: #333333;
@@ -705,6 +705,17 @@ h1 {
     color: #ffffff;
 }
 
+.icon-russia {
+    font-size: 30px;
+    position: relative;
+    display: block;
+}
+.icon-russia .path1 {
+    position: relative;
+}
+.icon-russia .path2, .icon-russia .path3 {
+    position: absolute;
+}
 .headerDeposit .data span:nth-child(2) {
     font-size: 30px;
     line-height: 36px;
@@ -749,7 +760,12 @@ h1 {
     font-weight: 700;
     text-decoration: none;
 }
-
+.ContentDeposit {
+    width: 1560px;
+    background-image: url(../img/png/fonOpenDeposit.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .ContentDeposit .left .touch {
     font-size: 14px;
     line-height: 60px;
