@@ -32,6 +32,28 @@ ul {
     height: 50px;
 }
 
+.timeData {
+    width: 270px;
+    margin-right: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.timeData span {
+    margin-right: 10px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.language * {
+    margin-right: 10px;
+}
+
 .timeData .numb {
     font-size: 30px;
     line-height: 36px;
@@ -49,16 +71,15 @@ ul {
 .icon-russia {
     font-size: 30px;
     position: relative;
+    display: block;
 }
 
 .icon-russia .path1 {
-    position: absolute;
-    left: -30px;
+    position: relative;
 }
 
 .icon-russia .path2, .icon-russia .path3 {
     position: absolute;
-    left: 0px;
 }
 
 .language .lang {
@@ -68,13 +89,27 @@ ul {
     font-weight: 700;
 }
 
+.socIcon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .socIcon a {
+    margin-right: 10px;
     font-size: 30px;
     color: #999999;
     text-decoration: none;
 }
 
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .contact .messeger {
+    margin-right: 10px;
     font-size: 30px;
     text-decoration: none;
 }
@@ -95,22 +130,54 @@ ul {
     text-decoration: none;
 }
 
+.positionH {
+    height: 50px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 /*baner*/
 .baner {
     background-image: url(../img/jpg/fonbanner.jpg);
     height: 900px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
-.baner .logo {
-    padding: 40px 0 0 15px;
+.positionB1 {
+    height: 110px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
-.baner .calc {
-    background-image: url(../img/png/foncalc.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.menu li {
+    display: inline-block;
+}
+
+.menu li + li {
+    margin-left: 30px;
+
+}
+
+.baner .logo, .baner .logo span {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.positionB4 {
+    width: 870px;
+    height: 55px;
+}
+.positionB4 .entersum, .positionB4 .money {
+    display: flex;
+    
 }
 
 .baner .logo span {
@@ -118,21 +185,25 @@ ul {
     height: 30px;
     color: #ffffff;
     font-weight: 700;
-    padding: 65px 0 0 0;
+    margin-left: 95px;
 }
 
-.baner .wraper .menu {
+.baner .menu {
     font-size: 14px;
     line-height: 36px;
     color: #ffffff;
     font-weight: 700;
 }
 
-.baner .wraper .activ li:nth-child(1) {
+.baner .activ li:nth-child(1) {
     font-size: 14px;
     line-height: 36px;
     color: #66cccc;
     font-weight: 700;
+}
+
+.TagLine {
+    width: 600px;
 }
 
 h1 {
@@ -143,11 +214,23 @@ h1 {
     text-transform: uppercase;
 }
 
+.account {
+    height: 45px;
+    width: 355px;
+}
+
+.account button {
+    height: 45px;
+    width: 170px;
+
+}
+
 .authorization .left {
     font-size: 15px;
     line-height: 27px;
     color: #66ccff;
     font-weight: 300;
+    float: left;
 }
 
 .register .right {
@@ -155,15 +238,56 @@ h1 {
     line-height: 27px;
     color: #cc3366;
     font-weight: 300;
+    float: right;
+}
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.baner .logo {
+    height: 110px;
+    width: 200px;
+    background-image: url(../img/png/logo1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
 
+.baner .calc {
+    width: 1170px;
+    height: 440px;
+    background-image: url(../img/png/bgicalc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.positionB3 .text1, .positionB3 .percent{
+    display: inline-block;
+    margin-left: 35px;
+}
+.positionB3 {
+    float: right;
+}
+.positionText0 {
+/*    непонятно как опустить этот блок посередине*/
+}
 .calc .text0 {
+    width: 180px;
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
     color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
 }
-
+.positionB2 {
+    height: 245px;
+    width: 1170px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 .calc .plan .text1 {
     color: #ffffff;
 }
@@ -293,14 +417,23 @@ h1 {
 /*rate котировки валют*/
 .rate {
     height: 50px;
+    /*width: 1170px; когда делаю это свойство активны - весь фон сдвигается влево - почему?*/
     background-color: #13171C;
-}
 
+}
+.rate div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.rate .cours span {
+    display: flex;
+    justify-content: center;
+}
 .rate .cours {
     font-size: 15px;
     line-height: 20px;
-    display: inline-block;
-    margin: 15px 15px;
 }
 
 .rate .cours span:first-child {
@@ -330,9 +463,9 @@ h1 {
 
 .promo .video {
     background-image: url(../img/png/fonvideo.png);
-    background-position: left center;
     background-repeat: no-repeat;
-    margin: 0 0 0 15px;
+    background-position: center;
+    background-size: cover;
 }
 
 .promo .video img {
@@ -393,6 +526,7 @@ h1 {
     background-image: url(../img/png/fonlogo.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .strategy .marker {
@@ -454,7 +588,8 @@ h1 {
 .partner .level {
     background-image: url(../img/png/partner.png);
     background-repeat: no-repeat;
-
+    background-position: center;
+    background-size: cover;
 }
 
 .partner .titl span {
@@ -544,6 +679,7 @@ h1 {
     background-image: url(../img/jpg/fonStatistics.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .statistics .text {
@@ -621,6 +757,7 @@ h1 {
     background-image: url(../img/png/fonPayments.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 /*блок about*/
@@ -705,17 +842,6 @@ h1 {
     color: #ffffff;
 }
 
-.icon-russia {
-    font-size: 30px;
-    position: relative;
-    display: block;
-}
-.icon-russia .path1 {
-    position: relative;
-}
-.icon-russia .path2, .icon-russia .path3 {
-    position: absolute;
-}
 .headerDeposit .data span:nth-child(2) {
     font-size: 30px;
     line-height: 36px;
@@ -760,12 +886,15 @@ h1 {
     font-weight: 700;
     text-decoration: none;
 }
+
 .ContentDeposit {
     width: 1560px;
     background-image: url(../img/png/fonOpenDeposit.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: cover;
 }
+
 .ContentDeposit .left .touch {
     font-size: 14px;
     line-height: 60px;
@@ -840,6 +969,7 @@ h1 {
     font-weight: 700;
     color: #333333;
 }
+
 .ContentDeposit .day span:nth-child(2),
 .ContentDeposit .all span:nth-child(2),
 .ContentDeposit .accrued span:nth-child(2),
@@ -849,6 +979,7 @@ h1 {
     font-weight: 400;
     color: #666666;
 }
+
 .ContentDeposit .curr span {
     font-size: 17px;
     line-height: 36px;
@@ -856,12 +987,14 @@ h1 {
     color: #333333;
     text-transform: uppercase;
 }
+
 .ContentDeposit .sum input {
     font-size: 17px;
     line-height: 100px;
     font-weight: 400;
     color: #333333;
 }
+
 .ContentDeposit button {
     font-size: 20px;
     line-height: 36px;
@@ -870,3 +1003,4 @@ h1 {
     text-transform: uppercase;
     background-color: #66cccc;
 }
+
