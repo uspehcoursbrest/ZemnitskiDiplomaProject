@@ -54,6 +54,13 @@ ul {
     margin-right: 10px;
 }
 
+.positionH {
+    height: 50px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .timeData .numb {
     font-size: 30px;
     line-height: 36px;
@@ -130,14 +137,6 @@ ul {
     text-decoration: none;
 }
 
-.positionH {
-    height: 50px;
-    width: 1170px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
 /*baner*/
 .baner {
     background-image: url(../img/jpg/fonbanner.jpg);
@@ -153,6 +152,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 115px;
 }
 
 .menu li {
@@ -175,9 +175,10 @@ ul {
     width: 870px;
     height: 55px;
 }
+
 .positionB4 .entersum, .positionB4 .money {
     display: flex;
-    
+
 }
 
 .baner .logo span {
@@ -217,12 +218,24 @@ h1 {
 .account {
     height: 45px;
     width: 355px;
+    margin-top: 10px;
 }
 
 .account button {
     height: 45px;
     width: 170px;
+    background-image: none;
+    background: transparent;
+    /*background-color: transparent;*/
 
+}
+
+.authorization button {
+    border: 1px solid #66ccff;
+}
+
+.register button {
+    border: 1px solid #993366;
 }
 
 .authorization .left {
@@ -233,6 +246,14 @@ h1 {
     float: left;
 }
 
+.authorization button span {
+    margin-right: 10px;
+}
+
+.register button span {
+    margin-right: 10px;
+}
+
 .register .right {
     font-size: 15px;
     line-height: 27px;
@@ -240,11 +261,13 @@ h1 {
     font-weight: 300;
     float: right;
 }
+
 .clear::after {
     content: '';
     display: block;
     clear: both;
 }
+
 .baner .logo {
     height: 110px;
     width: 200px;
@@ -253,24 +276,98 @@ h1 {
     background-position: left bottom;
 }
 
-.baner .calc {
-    width: 1170px;
-    height: 440px;
-    background-image: url(../img/png/bgicalc.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-}
-.positionB3 .text1, .positionB3 .percent{
-    display: inline-block;
-    margin-left: 35px;
-}
 .positionB3 {
-    float: right;
+    height: 365px;
+    width: 900px;
+    margin-top: 75px;
+    margin-left: 270px;
+    position: relative;
 }
-.positionText0 {
-/*    непонятно как опустить этот блок посередине*/
+
+.positionB3 .bgiFon {
+    position: absolute;
+    background-image: url(../img/png/bgicalc.png);
+    height: 365px;
+    width: 900px;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    left: -290px;
+    top: 30px;
 }
+
+.positionB3 .bgcFon {
+    position: absolute;
+    height: 310px;
+    width: 960px;
+    background-color: rgba(27, 37, 42, 0.85);
+    left: -100px;
+    top: -15px;
+}
+
+.positionB3 .positionText0 {
+    position: absolute;
+    left: -270px;
+    top: 100px;
+}
+
+.positionB3 .planPosition1 {
+    height: 60px;
+    width: 900px;
+    margin-bottom: 55px;
+}
+
+.positionB3 .planPosition1 > div {
+    float: left;
+    margin-right: 30px;
+}
+
+.planPosition2 {
+    height: 55px;
+    width: 900px;
+    padding-right: 55px;
+}
+
+.planPosition2 .entersum {
+    width: 515px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.planPosition2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.planPosition2 .entersum .num input {
+    background-image: none;
+    background: transparent;
+    border: 1px solid #666666;
+    padding-left: 20px;
+}
+
+.positionDeposit {
+    height: 80px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.positionDeposit .ante {
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.positionProfit > div {
+    margin-top: 30px;
+    float: left;
+}
+
 .calc .text0 {
     width: 180px;
     font-size: 17px;
@@ -281,13 +378,15 @@ h1 {
     position: absolute;
     vertical-align: middle;
 }
+
 .positionB2 {
-    height: 245px;
+    height: 130px;
     width: 1170px;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-between;
 }
+
 .calc .plan .text1 {
     color: #ffffff;
 }
@@ -388,6 +487,8 @@ h1 {
     line-height: 30px;
     font-weight: 400;
     color: #999999;
+    text-align: center;
+    margin-right: 55px;
 }
 
 .profit span {
@@ -414,26 +515,35 @@ h1 {
     text-transform: uppercase;
 }
 
+.positionProfit {
+    width: 900px;
+    height: 70px;
+    float: left;
+}
+
+.positionProfit .day,
+.positionProfit .ago {
+    margin-right: 140px;
+}
+
 /*rate котировки валют*/
 .rate {
     height: 50px;
-    /*width: 1170px; когда делаю это свойство активны - весь фон сдвигается влево - почему?*/
     background-color: #13171C;
-
 }
-.rate div {
+
+.positionRate {
+    height: 50px;
+    width: 1170px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
 }
-.rate .cours span {
-    display: flex;
-    justify-content: center;
-}
+
 .rate .cours {
     font-size: 15px;
     line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .rate .cours span:first-child {
@@ -457,22 +567,60 @@ h1 {
 }
 
 /*блок promo*/
-.promo {
-    height: 725px;
+.promo .positionPromo {
+    height: 670px;
+    width: 1170px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.promo .video {
+.promo .bgiPlayer {
+    position: absolute;
+    height: 430px;
+    width: 510px;
+    background-image: url(../img/jpg/player.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+    left: 45px;
+    top: -50px;
+}
+
+.promo .bgiPromo {
+    position: absolute;
+    width: 585px;
+    height: 305px;
     background-image: url(../img/png/fonvideo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.promo .video img {
-    margin: 170px 0 0 -335px;
+.promo .video {
+    height: 585px;
+    width: 430px;
+    margin-right: 15px;
+    position: relative;
 }
 
-.promo .video span {
+.promo .description {
+    height: 585px;
+    width: 570px;
+    margin-top: -60px;
+}
+
+.promo .videoText {
+    height: 30px;
+    width: 505px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -40px;
+}
+
+.promo .videoText span {
+
     font-size: 16px;
     line-height: 25px;
     font-weight: 500;
@@ -485,13 +633,25 @@ h1 {
     font-weight: 700;
     color: #333333;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .promo .description .subtitl {
+    height: 95px;
+    width: 615px;
+    margin-left: -45px;
+    padding-left: 45px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    background-color: #f2f2f2;
+}
+
+.promo .description .subtitl span {
     font-size: 17px;
     line-height: 27px;
     font-weight: 500;
     color: #333333;
+
 }
 
 .promo .description .text {
@@ -499,21 +659,38 @@ h1 {
     line-height: 22px;
     font-weight: 400;
     color: #666666;
+    margin-bottom: 60px;
+}
+
+.promo .botton {
+    height: 40px;
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .promo .botton button {
+    height: 40px;
+    width: 140px;
     font-size: 14px;
     line-height: 27px;
     font-weight: 700;
     text-transform: uppercase;
+    background-image: none;
+    background: transparent;
 }
+
 
 .promo .botton .left {
     color: #6699cc;
+    border: 1px solid #6699cc;
 }
 
 .promo .botton .right {
     color: #ffffff;
+    border: 1px solid #993366;
+    background-color: #993366;
 }
 
 /*блок strategy*/
@@ -534,14 +711,107 @@ h1 {
     line-height: 27px;
     font-weight: 700;
     text-transform: uppercase;
+
 }
 
+/*.strategy .marker ul {*/
+/*    height: 55px;*/
+/*    width: 820px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+.positionMarker {
+    height: 55px;
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+}
+.positionMarker ul {
+    height: 55px;
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.strategy .marker ul li {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.strategy .marker ul li+li {
+    margin-right: 15px;
+}
 .strategy .marker .activ {
     color: #333333;
+    height: 55px;
+    width: 280px;
 }
 
 .strategy .marker .pasiv {
     color: #ffffff;
+    height: 55px;
+    width: 280px;
+    background-color: #70b0c6;
+}
+.positionTextStrategy {
+    height: 555px;
+    width: 1170px;
+    margin-top: 115px;
+}
+.positionTextStrategy > div {
+    float: left;
+}
+.positionTextStrategy .text {
+    width: 380px;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.positionTextStrategy .text span[class*="icon"] {
+    margin: 0 20px;
+}
+.positionTextStrategy .LefTtext p {
+    text-align: right;
+}
+.positionTextStrategy .LefTtext .trade,
+.positionTextStrategy .RightT .work {
+    margin-bottom: 75px;
+}
+.positionTextStrategy .RightT p {
+    text-align: left;
+}
+
+.positionTextStrategy .logo {
+    height: 325px;
+    width: 335px;
+    margin: 0 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.positionTextStrategy .bgiStrategy {
+    height: 325px;
+    width: 335px;
+    background-image: url(../img/png/fonlogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.positionTextStrategy .logoStrategy {
+    height: 135px;
+    width: 175px;
+    background-image: url(../img/png/logo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
 }
 
 .icon-trade, .icon-company, .icon-work, .icon-target {
@@ -572,7 +842,7 @@ h1 {
     color: #993366;
     font-weight: 700;
 }
-
+/*блок partner -партнеры- */
 .partner h2 {
     font-size: 42px;
     line-height: 48px;
@@ -704,7 +974,6 @@ h1 {
 /*блок описания description*/
 .description {
     height: 790px;
-    background-color: #F2F2F2;
 }
 
 .description .title {
@@ -842,6 +1111,15 @@ h1 {
     color: #ffffff;
 }
 
+.headerDeposit .imgLogo {
+    height: 120px;
+    width: 360px;
+    background-image: url(../img/png/logo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .headerDeposit .data span:nth-child(2) {
     font-size: 30px;
     line-height: 36px;
@@ -887,11 +1165,23 @@ h1 {
     text-decoration: none;
 }
 
-.ContentDeposit {
+.ContentDeposit .left {
+    width: 360px;
+    background-color: #212428;
+    padding-left: 30px;
+}
+
+.ContentDeposit .right {
     width: 1560px;
+    background-color: #ebebeb;
+}
+
+.ContentDeposit .imgFon {
+    width: 1420px;
+    height: 1520px;
     background-image: url(../img/png/fonOpenDeposit.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     background-size: cover;
 }
 
@@ -1004,3 +1294,8 @@ h1 {
     background-color: #66cccc;
 }
 
+.ContentDeposit .touch span[class*="icon"] {
+    font-size: 25px;
+    color: #993366;
+    margin-right: 20px;
+}
