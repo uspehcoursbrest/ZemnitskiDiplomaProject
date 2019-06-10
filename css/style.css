@@ -170,12 +170,6 @@ ul {
     justify-content: space-between;
 }
 
-
-.positionB4 {
-    width: 870px;
-    height: 55px;
-}
-
 .positionB4 .entersum, .positionB4 .money {
     display: flex;
 
@@ -714,19 +708,13 @@ h1 {
 
 }
 
-/*.strategy .marker ul {*/
-/*    height: 55px;*/
-/*    width: 820px;*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*}*/
 .positionMarker {
     height: 55px;
     width: 1170px;
     display: flex;
     justify-content: center;
 }
+
 .positionMarker ul {
     height: 55px;
     width: 820px;
@@ -742,9 +730,11 @@ h1 {
     align-items: center;
 
 }
-.strategy .marker ul li+li {
+
+.strategy .marker ul li + li {
     margin-right: 15px;
 }
+
 .strategy .marker .activ {
     color: #333333;
     height: 55px;
@@ -757,14 +747,17 @@ h1 {
     width: 280px;
     background-color: #70b0c6;
 }
+
 .positionTextStrategy {
     height: 555px;
     width: 1170px;
     margin-top: 115px;
 }
+
 .positionTextStrategy > div {
     float: left;
 }
+
 .positionTextStrategy .text {
     width: 380px;
     height: 125px;
@@ -772,16 +765,20 @@ h1 {
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .positionTextStrategy .text span[class*="icon"] {
     margin: 0 20px;
 }
+
 .positionTextStrategy .LefTtext p {
     text-align: right;
 }
+
 .positionTextStrategy .LefTtext .trade,
 .positionTextStrategy .RightT .work {
     margin-bottom: 75px;
 }
+
 .positionTextStrategy .RightT p {
     text-align: left;
 }
@@ -795,6 +792,7 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
 .positionTextStrategy .bgiStrategy {
     height: 325px;
     width: 335px;
@@ -804,6 +802,7 @@ h1 {
     background-size: cover;
 
 }
+
 .positionTextStrategy .logoStrategy {
     height: 135px;
     width: 175px;
@@ -842,6 +841,7 @@ h1 {
     color: #993366;
     font-weight: 700;
 }
+
 /*блок partner -партнеры- */
 .partner h2 {
     font-size: 42px;
@@ -853,13 +853,73 @@ h1 {
 
 .partner {
     height: 635px;
+    background-image: url(../img/jpg/fonPartner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
-.partner .level {
+.partner .bgiFon {
+    position: absolute;
+    height: 345px;
+    width: 1170px;
     background-image: url(../img/png/partner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    left: 380px;
+    top: 145px;
+}
+
+.positionLevel .level {
+    height: 55px;
+    width: 1115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.positionLevel .point span {
+    text-align: center;
+    display: block;
+}
+
+.positionLevel {
+    margin-top: -28px;
+    margin-left: 12px;
+}
+
+.positionDesc {
+    height: 195px;
+    width: 1040px;
+    margin-left: 60px;
+    margin-top: 45px;
+}
+
+.positionDesc .description > div {
+    float: left;
+}
+
+.positionDesc .titl {
+    height: 195px;
+    width: 370px;
+    margin-right: 30px;
+    margin-top: 55px;
+}
+
+.positionDesc .text {
+    height: 195px;
+    width: 630px;
+}
+
+.positionDesc .text p:first-child {
+    margin-bottom: 20px;
+}
+
+.positionDesc .text p:last-child {
+    margin-top: 20px;
 }
 
 .partner .titl span {
@@ -883,6 +943,7 @@ h1 {
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
+
 }
 
 .partner .description .text {
@@ -900,6 +961,8 @@ h1 {
 }
 
 .partner .botton {
+    height: 65px;
+    width: 260px;
     font-size: 20px;
     line-height: 36px;
     font-weight: 700;
@@ -907,12 +970,135 @@ h1 {
     text-transform: uppercase;
 }
 
+.btnConnect {
+    height: 65px;
+    width: 260px;
+    margin-left: 830px;
+    margin-top: 53px;
+}
+
+.btnConnect button {
+    background-image: none;
+    border: 1px solid #73b6cc;
+    background-color: #73b6cc;
+}
+
+/*блок guid обписание как стать инвестором*/
+
 .guid h2 {
     font-size: 30px;
     line-height: 50px;
     font-weight: 700;
     color: #333333;
     text-transform: uppercase;
+}
+
+.positionGuid {
+    height: 810px;
+    width: 1170px;
+}
+
+.positionGuid .title {
+    height: 230px;
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.positionGuid .LeftItem {
+    height: 140px;
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.positionGuid .LeftNum {
+    height: 140px;
+    width: 150px;
+    position: relative;
+}
+
+.positionGuid .LeftNum .num {
+    position: absolute;
+    top: 25px;
+}
+
+.positionGuid .LeftIcon {
+    height: 20px;
+    width: 35px;
+    background-color: #a5345c;
+    position: absolute;
+    top: 45px;
+    left: 130px;
+}
+
+.positionGuid .LeftText {
+    height: 140px;
+    width: 890px;
+    background-color: #f2f2f2;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.positionGuid .LeftText .subTitle {
+    height: 135px;
+    width: 210px;
+    float: left;
+    margin-right: 55px;
+
+}
+
+/*блок с надпись с лева напрва и циыра справа*/
+.positionGuid .RightItem {
+    height: 140px;
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 150px;
+}
+
+.positionGuid .RightText {
+    height: 140px;
+    width: 890px;
+
+    background-color: #f2f2f2;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.positionGuid .RightText .text {
+    height: 140px;
+    width: 630px;
+    float: left;
+}
+
+.positionGuid .RightText .subTitle {
+    text-align: right;
+    margin-right: 25px;
+}
+
+.positionGuid .RightNum {
+    height: 140px;
+    width: 150px;
+    position: relative;
+}
+
+.positionGuid .RightIcon {
+    height: 20px;
+    width: 35px;
+    background-color: #a5345c;
+    position: absolute;
+    top: 45px;
+    left: -15px;
+}
+
+.positionGuid .RightNum .num {
+    position: absolute;
+    top: 25px;
+    left: 45px;
 }
 
 .guid .num {
@@ -946,10 +1132,38 @@ h1 {
 /*блок статистики statistics*/
 .statistics {
     height: 360px;
+    width: 1920px;
     background-image: url(../img/jpg/fonStatistics.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.statistics .imgFon {
+    height: 200px;
+    width: 1170px;
+    background-image: url(../img/png/fonStatistics.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*разобраться что не так с позиционированием статистических элементов*/
+.positionStat {
+    height: 200px;
+    width: 1140px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.statistics .text span {
+    display: block;
 }
 
 .statistics .text {
@@ -957,6 +1171,7 @@ h1 {
     line-height: 46px;
     font-weight: 300;
     color: #ffffff;
+    text-align: center;
 }
 
 .statistics .num {
@@ -972,23 +1187,52 @@ h1 {
 }
 
 /*блок описания description*/
-.description {
-    height: 790px;
+.positionDescription {
+    height: 940px;
+    background-color: #f2f2f2;
 }
 
-.description .title {
+.positionDescription .title {
     font-size: 24px;
     line-height: 50px;
     font-weight: 700;
     color: #333333;
     text-transform: uppercase;
+    text-align: center;
+    padding-top: 115px;
+    margin-bottom: 40px;
 }
 
-.description .title-text {
+.positionDescription .title-text {
     font-size: 15px;
     line-height: 22px;
     font-weight: 400;
     color: #333333;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.positionDescription .item {
+    height: 220px;
+    width: 30%;
+    float: left;
+    margin-bottom: 75px;
+    margin-right: 20px;
+}
+
+.positionDescription .image {
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-color: #73b6cc;
+    position: relative;
+    margin-right: 20px;
+}
+
+.positionDescription [class*="icon"] {
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
 
 .description .item-title {
@@ -997,6 +1241,7 @@ h1 {
     font-weight: 700;
     color: #993366;
     text-transform: uppercase;
+    margin-bottom: 35px;
 }
 
 .description .all .text {
@@ -1016,17 +1261,37 @@ h1 {
 .icon-world,
 .icon-tool,
 .icon-comfort {
-    font-size: 50px;
+    font-size: 40px;
     color: #ffffff;
 }
 
 /*блок платежных систем payments*/
 .payments {
     height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payments .bgiFon {
+    height: 145px;
+    width: 1170px;
     background-image: url(../img/png/fonPayments.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.payments .image {
+    height: 140px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
 }
 
 /*блок about*/
@@ -1035,11 +1300,74 @@ h1 {
     background-color: #333333;
 }
 
+.positionAbout {
+    height: 320px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 95px;
+}
+
+.about .list {
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+.about .logo {
+    height: 60px;
+    width: 200px;
+    background-image: url(../img/png/logo1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.tradeColumn .textAddress,
+.tradeColumn .regNumText {
+    margin-bottom: 34px;
+}
+
+.tradeColumn button {
+    height: 40px;
+    width: 240px;
+    background-image: none;
+    background: transparent;
+    border: 1px solid #73b6cc;
+}
+
+
 .about .logo span {
     font-size: 27px;
     line-height: 30px;
     font-weight: 700;
     color: #ffffff;
+    margin-left: 95px;
+}
+
+.positionAbout .tradeColumn {
+    width: 330px;
+    float: left;
+}
+
+.positionAbout .companyColumn {
+    width: 215px;
+    float: left;
+}
+
+.companyColumn .textCompany, .agentColumn .textAgent,
+.companyColumn .company, .agentColumn .agent,
+.companyColumn .invest, .agentColumn .info {
+    margin-bottom: 35px;
+}
+
+
+.positionAbout .agentColumn {
+    width: 240px;
+    float: left;
 }
 
 .about .address,
@@ -1076,6 +1404,7 @@ h1 {
 .about .textInfo a:nth-child(4) {
     text-decoration: none;
     font-weight: 500;
+    color: #73b6cc;
 }
 
 .about .botton button {
@@ -1085,12 +1414,23 @@ h1 {
     color: #66cccc;
 }
 
-/*footer*/
+/*облвсть подвала footer*/
 .footer {
     height: 50px;
     background-color: #3B3F44;
 }
 
+.footer .wraper {
+    height: 50px;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*.footer .socIcon {*/
+/*    margin-left: 50px;*/
+/*}*/
 .footer .text {
     font-size: 13px;
     line-height: 18px;
