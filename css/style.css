@@ -705,7 +705,7 @@ h1 {
     line-height: 27px;
     font-weight: 700;
     text-transform: uppercase;
-
+margin-top: -55px;
 }
 
 .positionMarker {
@@ -739,6 +739,8 @@ h1 {
     color: #333333;
     height: 55px;
     width: 280px;
+    background-color: #f2f2f2;
+    margin-right: 15px;
 }
 
 .strategy .marker .pasiv {
@@ -962,7 +964,7 @@ h1 {
 
 .partner .botton {
     height: 65px;
-    width: 260px;
+    width: 265px;
     font-size: 20px;
     line-height: 36px;
     font-weight: 700;
@@ -972,8 +974,8 @@ h1 {
 
 .btnConnect {
     height: 65px;
-    width: 260px;
-    margin-left: 830px;
+    width: 265px;
+    margin-left: 827px;
     margin-top: 53px;
 }
 
@@ -1443,21 +1445,54 @@ h1 {
     color: #ffffff;
 }
 
-/*page OpenDeposit*/
+/*стилизация второй страницы проекта page OpenDeposit*/
+/*блок заголовка header*/
+.conteiner {
+    width: 1920px;
+}
 .headerDeposit .logo span {
     font-size: 27px;
     line-height: 30px;
     font-weight: 700;
     color: #ffffff;
+    width: 110px;
+}
+
+.headerDeposit {
+    height: 120px;
+    width: 1920px;
+    display: block;
+}
+
+.headerDeposit .left {
+    height: 120px;
+    width: 360px;
+    float: left;
+}
+
+.headerDeposit .right {
+    height: 120px;
+    width: 1560px;
+    float: left;
+}
+
+.headerDeposit .logo {
+    height: 120px;
+    width: 360px;
+    background-color: #212428;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .headerDeposit .imgLogo {
-    height: 120px;
-    width: 360px;
+    height: 60px;
+    width: 70px;
     background-image: url(../img/png/logo1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-right: 10px;
 }
 
 .headerDeposit .data span:nth-child(2) {
@@ -1474,11 +1509,71 @@ h1 {
     color: #999999;
 }
 
+.headerDeposit .positionRight {
+    height: 120px;
+    width: 1560px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerDeposit .data {
+    height: 120px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerDeposit .data span {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.headerDeposit .lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .headerDeposit .lang select {
+    margin-left: 10px;
     font-size: 14px;
     line-height: 36px;
     font-weight: 700;
     color: #333333;
+}
+
+.headerDeposit .socIcon {
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerDeposit .socIcon span {
+    color: #afafaf;
+    font-size: 30px;
+}
+
+.headerDeposit .contact span {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.headerDeposit .icon-tg {
+    color: #73b6cc;
+}
+
+.headerDeposit .icon-viber {
+    color: #a5345c;
+}
+
+.headerDeposit .contact {
+    height: 120px;
+    width: 270px;
 }
 
 .headerDeposit .contact a {
@@ -1490,8 +1585,17 @@ h1 {
 }
 
 .headerDeposit .profile {
+    height: 120px;
+    width: 240px;
     font-size: 15px;
     line-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerDeposit .profile img {
+    margin-right: 10px;
 }
 
 .headerDeposit .profile span {
@@ -1505,32 +1609,75 @@ h1 {
     text-decoration: none;
 }
 
+/*стлизация блока content*/
+
 .ContentDeposit .left {
+    height: 1710px;
     width: 360px;
     background-color: #212428;
-    padding-left: 30px;
+    float: left;
 }
 
 .ContentDeposit .right {
+    height: 1710px;
     width: 1560px;
     background-color: #ebebeb;
+    float: left;
+}
+
+.ContentDeposit .right {
+    height: 1710px;
+    width: 1560px;
+    background-color: #ebebeb;
+    position: relative;
 }
 
 .ContentDeposit .imgFon {
     width: 1420px;
     height: 1520px;
+    position: absolute;
     background-image: url(../img/png/fonOpenDeposit.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    top: 95px;
+    left: 70px;
 }
 
-.ContentDeposit .left .touch {
+.ContentDeposit .textRight span {
+    display: inline-block;
+}
+
+.ContentDeposit .touch .activ {
     font-size: 14px;
     line-height: 60px;
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
+    background-color: #292d31;
+    border-left: 7px solid #a5345c;
+    border-bottom: 1px solid #3b3f44;
+    border-top: 1px solid #3b3f44;
+    padding-left: 30px;
+}
+
+.ContentDeposit .touch .activ [class*="icon"] {
+    color: #a5345c;
+}
+
+.ContentDeposit .touch .pasiv {
+    font-size: 14px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #3b3f44;
+    border-top: 1px solid #3b3f44;
+    padding-left: 30px;
+}
+
+.ContentDeposit .touch .pasiv [class*="icon"] {
+    color: #73b6cc;
 }
 
 .ContentDeposit footer {
@@ -1538,6 +1685,8 @@ h1 {
     line-height: 18px;
     font-weight: 300;
     color: #cccccc;
+    margin-top: 780px;
+    text-align: center;
 }
 
 .ContentDeposit footer span:nth-child(2) {
@@ -1548,6 +1697,7 @@ h1 {
 }
 
 .ContentDeposit .textRight h2 {
+    margin-left: 100px;
     font-size: 24px;
     line-height: 27px;
     font-weight: 700;
@@ -1556,6 +1706,8 @@ h1 {
 }
 
 .ContentDeposit .num {
+    margin-left: 100px;
+    margin-top: 75px;
     font-size: 21px;
     line-height: 36px;
     font-weight: 700;
@@ -1567,6 +1719,117 @@ h1 {
     line-height: 36px;
     font-weight: 700;
     color: #333333;
+}
+
+.ContentDeposit .items {
+    position: relative;
+}
+
+.ContentDeposit .positionItems {
+    height: 940px;
+    width: 1190px;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+
+.ContentDeposit .items .item {
+    height: 440px;
+    width: 30%;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.ContentDeposit .positionItems .bgcBlock {
+    height: 165px;
+    width: 250px;
+    background-color: #74b7cb;
+    margin: auto;
+    position: absolute;
+    left: 15%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContentDeposit .positionItems .bgcFon {
+    height: 360px;
+    width: 370px;
+    background-color: #fff;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.ContentDeposit .blockMarker {
+    position: absolute;
+    height: 35px;
+    width: 25px;
+    background-color: #a5345c;
+    margin-top: 70px;
+    margin-left: -100px;
+}
+.ContentDeposit .positionItems .percent {
+    height: 70px;
+    width: 125px;
+}
+
+.ContentDeposit .positionItems .more {
+    height: 170px;
+    width: 260px;
+}
+
+.positionMore {
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+.positionMore .more [class] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ContentDeposit .positionItems .focus .bgcFon {
+    border: 5px solid #74b7cb;
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.35);
+}
+.ContentDeposit .positionItems .pasiv .bgcBlock {
+    background-color: #d7d7d7;
+}
+.ContentDeposit .positionCurr {
+    position: absolute;
+    top: 1100px;
+}
+
+.ContentDeposit .positionCurr .curr * {
+    display: inline-block;
+}
+/*.ContentDeposit .positionCurr .select label {*/
+/*    margin-right: 20px;*/
+/*}*/
+.ContentDeposit .positionCurr .activ label {
+    font-size: 17px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #a5345c;
+    text-transform: uppercase;
+}
+.ContentDeposit .positionInvest input {
+    height: 45px;
+    width: 290px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.ContentDeposit .positionInvest input[value] {
+    padding-left: 20px;
+}
+.ContentDeposit .positionInvest {
+    position: absolute;
+    top: 1250px;
 }
 
 .ContentDeposit .percent span:nth-child(1) {
@@ -1610,7 +1873,7 @@ h1 {
     color: #666666;
 }
 
-.ContentDeposit .curr span {
+.ContentDeposit .curr label {
     font-size: 17px;
     line-height: 36px;
     font-weight: 700;
@@ -1632,10 +1895,226 @@ h1 {
     color: #ffffff;
     text-transform: uppercase;
     background-color: #66cccc;
+    border: 0;
+    position: absolute;
+    top: 1493px;
+    left: 1115px;
+    height: 65px;
+    width: 240px;
 }
 
 .ContentDeposit .touch span[class*="icon"] {
     font-size: 25px;
     color: #993366;
     margin-right: 20px;
+}
+
+/*создание круглой рамки для социальных иконок*/
+.icon-fb, .icon-yt, .icon-tw, .icon-vk {
+    border: 1px solid #afafaf;
+    border-radius: 50%;
+}
+/*создание блока со ссылкой на главной странице*/
+.invisLink {
+    position: relative;
+    z-index: 1;
+}
+.invisLink > a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
+
+/*создание псевдоэлементов*/
+.positionMarker li {
+    position: relative;
+}
+.positionMarker li:first-child::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid #f2f2f2;
+    border-top: 55px solid transparent;
+}
+.positionMarker li:last-child::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid #70b0c6;
+    border-top: 55px solid transparent;
+}
+
+.partner .btnConnect {
+    position: relative;
+}
+.partner .btnConnect button::before{
+    content: '';
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid #73b6cc;
+    border-bottom: 65px solid transparent;
+}
+
+.guid .LeftIcon {
+    position: relative;
+}
+.guid .LeftIcon::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-right: 15px solid #a5345c;
+    border-top: 20px solid transparent;
+}
+.guid .RightIcon {
+    position: relative;
+}
+.guid .RightIcon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid #a5345c;
+    border-top: 20px solid transparent;
+}
+.positionDescription .image {
+    position: relative;
+}
+.positionDescription .image::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 80%;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-right: 15px solid #f2f2f2;
+    border-bottom: 15px solid transparent;
+}
+
+/*создание псевдоэлементов для второй страници проекта*/
+.ContentDeposit .positionItems {
+    position: relative;
+}
+.ContentDeposit .positionItems .activ .bgcBlock::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    width: 0px;
+    height: 0px;
+    border-right: 250px solid #74b7cb;
+    border-bottom: 25px solid transparent;
+}
+.ContentDeposit .positionItems .pasiv .bgcBlock::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    width: 0px;
+    height: 0px;
+    border-right: 250px solid #d7d7d7;
+    border-bottom: 25px solid transparent;
+}
+.ContentDeposit .blockMarker::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: -58%;
+    width: 0px;
+    height: 0px;
+    border-left: 25px solid #a5345c;
+    border-top: 20px solid transparent;
+}
+
+.ContentDeposit .right .imgFon {
+    position: relative;
+}
+.ContentDeposit .right button::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 0%;
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid #66cccc;
+    border-bottom: 65px solid transparent;
+}
+/*создание псевдоэлементов для переключателей*/
+.positionCurr .select .radioBtn {
+    display: none;
+}
+.positionCurr .select li {
+    padding-left: 50px;
+    /*position: relative;*/
+}
+.positionCurr .select label {
+    position: relative;
+    padding-left: 30px;
+    margin-left: -30px;
+}
+.positionCurr .select .radioBtn:not(checked) + label::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.positionCurr .select .radioBtn:not(checked) + label::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 15px;
+    height: 15px;
+    background-color: #ba3261;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.positionCurr .select .radioBtn:checked + label::before {
+    border-color: #d4d4d4;
+}
+.positionCurr .select .radioBtn:checked + label::after {
+    opacity: 1;
+}
+
+.positionCurr .select .radioBtn +label {
+    cursor: pointer;
 }
