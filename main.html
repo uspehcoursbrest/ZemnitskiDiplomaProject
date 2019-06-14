@@ -10,6 +10,9 @@
 </head>
 <body>
 <!--Блок Хэдер-->
+<!--<div class="map">-->
+<!--    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2450.7935170433143!2d23.697717638636544!3d52.1016893564724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210be2cf673d61%3A0x14f8116bbe9838ac!2z0YPQuy4g0JzQtdC90LbQuNC90YHQutC-0LPQviAxMCwg0JHRgNC10YHRgg!5e0!3m2!1sru!2sby!4v1560430668781!5m2!1sru!2sby" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+<!--</div>-->
 <div class="header">
     <div class="wraper">
         <div class="positionH">
@@ -63,31 +66,31 @@
                 <span>Trade Finance</span>
                 <a href="#">Главная</a>
             </div>
-            <div class="menu activ">
+            <div class="menu">
                 <ul>
                     <li>
-                        <span>Главная</span>
+                        <a href="#"><span>Главная</span></a>
                     </li>
                     <li>
-                        <span>о компании</span>
+                        <a href="#"><span>о компании</span></a>
                     </li>
                     <li>
-                        <span>инвесторам</span>
+                        <a href="#"><span>инвесторам</span></a>
                     </li>
                     <li>
-                        <span>партнёрам</span>
+                        <a href="#"><span>партнёрам</span></a>
                     </li>
                     <li>
-                        <span>новости</span>
+                        <a href="#"><span>новости</span></a>
                     </li>
                     <li>
-                        <span>FAQ</span>
+                        <a href="#"><span>FAQ</span></a>
                     </li>
                     <li>
-                        <span>соглашение</span>
+                        <a href="#"><span>соглашение</span></a>
                     </li>
                     <li>
-                        <span>контакты</span>
+                        <a href="#"><span>контакты</span></a>
                     </li>
                 </ul>
             </div>
@@ -114,119 +117,134 @@
         <div class="positionB3">
             <div class="calc">
                 <form action="">
-                    <div class="bgiFon"></div>
-                    <div class="bgcFon"></div>
-                    <div class="positionText0">
-                        <div class="text0">
-                            <span>Рассчитайте рибыль прямо сейчас:</span>
-                        </div>
-                    </div>
-                    <div class="plan planPosition1 clear">
-                        <div class="text1 ">
-                            <span>01.</span>
-                            <span>Выберите план:</span>
-                        </div>
-                        <div class="percent pasiv">
-                            <div class="num">
-                                <span>120%</span>
+                    <div class="bgcFon">
+                        <div class="bgiFon">
+                            <div class="positionText0">
+                                <div class="text0">
+                                    <span>Рассчитайте рибыль прямо сейчас:</span>
+                                </div>
                             </div>
-                            <div class="text pasiv">
-                                <span>за 180 дней</span>
+                            <div class="plan planPosition1 clear">
+                                <div class="text1 ">
+                                    <span>01.</span>
+                                    <span>Выберите план:</span>
+                                </div>
+                                <div class="percent pasiv">
+                                    <a href="#">
+                                        <div class="num">
+                                            <span>120%</span>
+                                        </div>
+                                        <div class="text">
+                                            <span>за 180 дней</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="percent pasiv">
+                                    <a href="#">
+                                        <div class="num">
+                                            <span>140%</span>
+                                        </div>
+                                        <div class="text">
+                                            <span>за 30 дней</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="percent pasiv">
+                                    <a href="#">
+                                        <div class="num">
+                                            <span>160%</span>
+                                        </div>
+                                        <div class="text pasiv">
+                                            <span>за 10 недель</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="percent noactiv">
+                                    <div class="num">
+                                        <span>180%</span>
+                                    </div>
+                                    <div class="text noactiv">
+                                        <span>за 20 недель</span>
+                                    </div>
+                                </div>
+                                <div class="percent noactiv">
+                                    <div class="num">
+                                        <span>200%</span>
+                                    </div>
+                                    <div class="text noactiv">
+                                        <span>за 30 недель</span>
+                                    </div>
+                                </div>
+                                <div class="percent noactiv">
+                                    <div class="num">
+                                        <span>220%</span>
+                                    </div>
+                                    <div class="text noactiv">
+                                        <span>за 50 недель</span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="percent activ">
-                            <div class="num">
-                                <span>140%</span>
+                            <div class="plan planPosition2">
+                                <div class="entersum">
+                                    <div class="text1">
+                                        <span>02. </span>
+                                        <span>Введите сумму:</span>
+                                    </div>
+                                    <div class="num">
+                                        <input type="text" value="2500,00 $" placeholder="2500,00 $">
+                                    </div>
+                                </div>
+                                <div class="money">
+                                    <ul class="text">
+                                        <li>
+                                            <input type="radio" name="money" value="rub" id="rub" class="radioBtn"
+                                                   checked>
+                                            <label for="rub" class="rub">RUB</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="money" value="usd" id="usd" class="radioBtn">
+                                            <label for="usd" class="usd">USD</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="money" value="bts" id="btc" class="radioBtn">
+                                            <label for="btc" class="btc">BTC</label>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="text activ">
-                                <span>за 30 дней</span>
+                            <div class="deposit positionDeposit">
+                                <div class="ante">
+                                    <span>2500$</span>
+                                    <!--здесь в input должен быть полжунок для выбора диапазона кклада-->
+                                    <input type="text" id="">
+                                    <span>10$</span>
+                                    <span>100 000$</span>
+                                </div>
+                                <div class="text-deposit">
+                                    <span>Депозит включен<br>Возврат в конце срока</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="percent pasiv">
-                            <div class="num">
-                                <span>160%</span>
+                            <div class="profit positionProfit clear">
+                                <div class="day">
+                                    <div class="text">
+                                        <span>прибыль в день:</span>
+                                    </div>
+                                    <div class="num">
+                                        <span>570,00$</span>
+                                    </div>
+                                </div>
+                                <div class="ago">
+                                    <div class="text">
+                                        <span>прибыль за весь срок:</span>
+                                    </div>
+                                    <div class="num">
+                                        <span>8920,00$</span>
+                                    </div>
+                                </div>
+                                <div class="botton">
+                                    <button>инвестировать</button>
+                                </div>
                             </div>
-                            <div class="text pasiv">
-                                <span>за 10 недель</span>
-                            </div>
-                        </div>
-                        <div class="percent noactiv">
-                            <div class="num">
-                                <span>180%</span>
-                            </div>
-                            <div class="text noactiv">
-                                <span>за 20 недель</span>
-                            </div>
-                        </div>
-                        <div class="percent noactiv">
-                            <div class="num">
-                                <span>200%</span>
-                            </div>
-                            <div class="text noactiv">
-                                <span>за 30 недель</span>
-                            </div>
-                        </div>
-                        <div class="percent noactiv">
-                            <div class="num">
-                                <span>220%</span>
-                            </div>
-                            <div class="text noactiv">
-                                <span>за 50 недель</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="plan planPosition2">
-                        <div class="entersum">
-                            <div class="text1">
-                                <span>02. </span>
-                                <span>Введите сумму:</span>
-                            </div>
-                            <div class="num">
-                                <input type="text" value="2500,00 $" placeholder="2500,00 $">
-                            </div>
-                        </div>
-                        <div class="money">
-                            <div class="text">
-                                <input type="radio" name="money" id="rub">
-                                <span class="rub">RUB</span>
-                                <input type="radio" name="money" id="usd">
-                                <span class="usd">USD</span>
-                                <input type="radio" name="money" id="btc">
-                                <span class="btc">BTC</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="deposit positionDeposit">
-                        <div class="ante">
-                            <span>2500$</span>
-                            <!--здесь в input должен быть полжунок для выбора диапазона кклада-->
-                            <input type="text" id="">
-                            <span>10$</span>
-                            <span>100 000$</span>
-                        </div>
-                        <div class="text-deposit">
-                            <span>Депозит включен<br>Возврат в конце срока</span>
-                        </div>
-                    </div>
-                    <div class="profit positionProfit clear">
-                        <div class="day">
-                            <div class="text">
-                                <span>прибыль в день:</span>
-                            </div>
-                            <div class="num">
-                                <span>570,00$</span>
-                            </div>
-                        </div>
-                        <div class="ago">
-                            <div class="text">
-                                <span>прибыль за весь срок:</span>
-                            </div>
-                            <div class="num">
-                                <span>8920,00$</span>
-                            </div>
-                        </div>
-                        <div class="botton">
-                            <button>инвестировать</button>
                         </div>
                     </div>
                 </form>
@@ -326,9 +344,9 @@
         <div class="positionMarker .clear">
             <div class="marker">
                 <ul>
-                    <li class="activ">НАША СТРАТЕГИЯ</li>
-                    <li class="pasiv">НАШИ ПРЕИМУЩЕСТВА</li>
-                    <li class="pasiv">СТАТИСТИКА ПРИБЫЛИ</li>
+                    <li class="left"><button>НАША СТРАТЕГИЯ</button></li>
+                    <li class="center"><button>НАШИ ПРЕИМУЩЕСТВА</button></li>
+                    <li class="right"><button>СТАТИСТИКА ПРИБЫЛИ</button></li>
                 </ul>
             </div>
         </div>

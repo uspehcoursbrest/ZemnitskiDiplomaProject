@@ -48,10 +48,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-}
-
-.language * {
-    margin-right: 10px;
+    margin-top: -6px;
+    margin-left: -40px;
 }
 
 .positionH {
@@ -76,7 +74,7 @@ ul {
 }
 
 .icon-russia {
-    font-size: 30px;
+    font-size: 28px;
     position: relative;
     display: block;
 }
@@ -87,13 +85,22 @@ ul {
 
 .icon-russia .path2, .icon-russia .path3 {
     position: absolute;
+    top: 0;
+    left: 30px;
 }
 
 .language .lang {
+
+    padding-left: 10px;
+
+}
+.language select {
+    border: 0;
+    padding-left: 11px;
     font-size: 14px;
     line-height: 36px;
     color: #333333;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .socIcon {
@@ -147,21 +154,32 @@ ul {
 }
 
 .positionB1 {
-    height: 110px;
+    height: 102px;
     width: 1170px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 115px;
+    margin-bottom: 97px;
+}
+.baner .menu {
+    margin-top: 10px;
+}
+.baner .menu a {
+    font-size: 14px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .menu li {
     display: inline-block;
+    margin-top: 10px;
 }
 
 .menu li + li {
-    margin-left: 30px;
-
+    margin-left: 23px;
 }
 
 .baner .logo, .baner .logo span {
@@ -183,19 +201,6 @@ ul {
     margin-left: 95px;
 }
 
-.baner .menu {
-    font-size: 14px;
-    line-height: 36px;
-    color: #ffffff;
-    font-weight: 700;
-}
-
-.baner .activ li:nth-child(1) {
-    font-size: 14px;
-    line-height: 36px;
-    color: #66cccc;
-    font-weight: 700;
-}
 
 .TagLine {
     width: 600px;
@@ -220,8 +225,6 @@ h1 {
     width: 170px;
     background-image: none;
     background: transparent;
-    /*background-color: transparent;*/
-
 }
 
 .authorization button {
@@ -274,7 +277,7 @@ h1 {
     height: 365px;
     width: 900px;
     margin-top: 75px;
-    margin-left: 270px;
+    /*margin-left: 270px;*/
     position: relative;
 }
 
@@ -282,12 +285,14 @@ h1 {
     position: absolute;
     background-image: url(../img/png/bgicalc.png);
     height: 365px;
-    width: 900px;
+    width: 1170px;
     background-repeat: no-repeat;
+    top: 47px;
+    left: -185px;
     /*background-position: center;*/
     /*background-size: cover;*/
-    left: -290px;
-    top: 30px;
+    /*left: -290px;*/
+    /*top: 30px;*/
 }
 
 .positionB3 .bgcFon {
@@ -295,20 +300,25 @@ h1 {
     height: 310px;
     width: 960px;
     background-color: rgba(27, 37, 42, 0.85);
-    left: -100px;
+    left: 185px;
     top: -15px;
 }
 
 .positionB3 .positionText0 {
     position: absolute;
-    left: -270px;
-    top: 100px;
+    top: 65px;
 }
 
 .positionB3 .planPosition1 {
     height: 60px;
     width: 900px;
+    margin-top: -7px;
     margin-bottom: 55px;
+    margin-left: 290px;
+}
+
+.positionB3 .planPosition1 .percent {
+    margin-top: -30px;
 }
 
 .positionB3 .planPosition1 > div {
@@ -316,45 +326,59 @@ h1 {
     margin-right: 30px;
 }
 
+
 .planPosition2 {
     height: 55px;
-    width: 900px;
+    width: 845px;
     padding-right: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 290px;
 }
 
 .planPosition2 .entersum {
-    width: 515px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
+
 }
 
-.planPosition2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .planPosition2 .entersum .num input {
+    width: 290px;
+    height: 45px;
     background-image: none;
     background: transparent;
     border: 1px solid #666666;
     padding-left: 20px;
+
+}
+
+.planPosition2 ul {
+    margin-left: 20px;
 }
 
 .positionDeposit {
     height: 80px;
-    width: 900px;
+    width: 735px;
+    margin-left: 320px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .positionDeposit .ante {
-    width: 490px;
+    width: 470px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.positionDeposit .text-deposit span {
+    /*width: 260px;*/
+    /*margin-left: -60px;*/
 }
 
 .positionProfit > div {
@@ -370,7 +394,7 @@ h1 {
     color: #ffffff;
     display: inline-block;
     position: absolute;
-    vertical-align: middle;
+
 }
 
 .positionB2 {
@@ -399,21 +423,22 @@ h1 {
 
 .plan .pasiv .num {
     font-size: 30px;
-    line-height: 25px;
+    line-height: 40px;
     font-weight: 700;
     color: #cc3366;
+
 }
 
-.plan .activ .num {
-    font-size: 30px;
-    line-height: 25px;
-    font-weight: 700;
-    color: #66cccc;
-}
+/*.plan .activ .num {*/
+/*    font-size: 30px;*/
+/*    line-height: 25px;*/
+/*    font-weight: 700;*/
+/*    color: #66cccc;*/
+/*}*/
 
 .plan .noactiv .num {
     font-size: 30px;
-    line-height: 25px;
+    line-height: 40px;
     font-weight: 700;
     color: #333366;
 }
@@ -482,7 +507,7 @@ h1 {
     font-weight: 400;
     color: #999999;
     text-align: center;
-    margin-right: 55px;
+    /*margin-right: 55px;*/
 }
 
 .profit span {
@@ -507,12 +532,21 @@ h1 {
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
+    margin-top: 11px;
+    width: 240px;
+    height: 60px;
+    margin-left: -20px;
+    background-image: none;
+    background-color: #73b6cc;
+    border: none;
 }
 
 .positionProfit {
     width: 900px;
     height: 70px;
     float: left;
+    margin-left: 290px;
+    margin-top: -20px;
 }
 
 .positionProfit .day,
@@ -701,11 +735,20 @@ h1 {
 }
 
 .strategy .marker {
+
+    margin-top: -55px;
+}
+
+.strategy .marker button {
+    width: 280px;
+    height: 55px;
     font-size: 17px;
     line-height: 27px;
     font-weight: 700;
+    color: #ffffff;
     text-transform: uppercase;
-margin-top: -55px;
+    background-color: #70b0c6;
+    border: 0;
 }
 
 .positionMarker {
@@ -732,22 +775,22 @@ margin-top: -55px;
 }
 
 .strategy .marker ul li + li {
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .strategy .marker .activ {
-    color: #333333;
+    /*color: #333333;*/
     height: 55px;
     width: 280px;
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
     margin-right: 15px;
 }
 
 .strategy .marker .pasiv {
-    color: #ffffff;
+    /*color: #ffffff;*/
     height: 55px;
     width: 280px;
-    background-color: #70b0c6;
+    /*background-color: #70b0c6;*/
 }
 
 .positionTextStrategy {
@@ -1134,7 +1177,7 @@ margin-top: -55px;
 /*блок статистики statistics*/
 .statistics {
     height: 360px;
-    width: 1920px;
+    /*width: 1200px;*/
     background-image: url(../img/jpg/fonStatistics.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -1450,6 +1493,7 @@ margin-top: -55px;
 .conteiner {
     width: 1920px;
 }
+
 .headerDeposit .logo span {
     font-size: 27px;
     line-height: 30px;
@@ -1648,24 +1692,26 @@ margin-top: -55px;
     display: inline-block;
 }
 
-.ContentDeposit .touch .activ {
-    font-size: 14px;
-    line-height: 60px;
-    font-weight: 700;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #292d31;
-    border-left: 7px solid #a5345c;
-    border-bottom: 1px solid #3b3f44;
-    border-top: 1px solid #3b3f44;
-    padding-left: 30px;
-}
+/*.ContentDeposit .touch .activ {*/
+/*    font-size: 14px;*/
+/*    line-height: 60px;*/
+/*    font-weight: 700;*/
+/*    color: #ffffff;*/
+/*    text-transform: uppercase;*/
+/*    background-color: #292d31;*/
+/*    border-left: 7px solid #a5345c;*/
+/*    border-bottom: 1px solid #3b3f44;*/
+/*    border-top: 1px solid #3b3f44;*/
+/*    padding-left: 30px;*/
+/*}*/
 
 .ContentDeposit .touch .activ [class*="icon"] {
     color: #a5345c;
 }
 
 .ContentDeposit .touch .pasiv {
+    width: 360px;
+    height: 60px;
     font-size: 14px;
     line-height: 60px;
     font-weight: 700;
@@ -1763,6 +1809,7 @@ margin-top: -55px;
     display: flex;
     justify-content: center;
 }
+
 .ContentDeposit .blockMarker {
     position: absolute;
     height: 35px;
@@ -1771,6 +1818,7 @@ margin-top: -55px;
     margin-top: 70px;
     margin-left: -100px;
 }
+
 .ContentDeposit .positionItems .percent {
     height: 70px;
     width: 125px;
@@ -1793,13 +1841,16 @@ margin-top: -55px;
     justify-content: space-between;
     align-items: center;
 }
-.ContentDeposit .positionItems .focus .bgcFon {
-    border: 5px solid #74b7cb;
-    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.35);
-}
+
+/*.ContentDeposit .positionItems .focus .bgcFon {*/
+/*    border: 5px solid #74b7cb;*/
+/*    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.35);*/
+/*}*/
+
 .ContentDeposit .positionItems .pasiv .bgcBlock {
     background-color: #d7d7d7;
 }
+
 .ContentDeposit .positionCurr {
     position: absolute;
     top: 1100px;
@@ -1808,9 +1859,7 @@ margin-top: -55px;
 .ContentDeposit .positionCurr .curr * {
     display: inline-block;
 }
-/*.ContentDeposit .positionCurr .select label {*/
-/*    margin-right: 20px;*/
-/*}*/
+
 .ContentDeposit .positionCurr .activ label {
     font-size: 17px;
     line-height: 36px;
@@ -1818,15 +1867,18 @@ margin-top: -55px;
     color: #a5345c;
     text-transform: uppercase;
 }
+
 .ContentDeposit .positionInvest input {
     height: 45px;
     width: 290px;
     margin-top: 25px;
     margin-left: 100px;
 }
+
 .ContentDeposit .positionInvest input[value] {
     padding-left: 20px;
 }
+
 .ContentDeposit .positionInvest {
     position: absolute;
     top: 1250px;
@@ -1914,11 +1966,13 @@ margin-top: -55px;
     border: 1px solid #afafaf;
     border-radius: 50%;
 }
+
 /*создание блока со ссылкой на главной странице*/
 .invisLink {
     position: relative;
     z-index: 1;
 }
+
 .invisLink > a {
     display: block;
     position: absolute;
@@ -1933,10 +1987,27 @@ margin-top: -55px;
 }
 
 /*создание псевдоэлементов*/
+.positionProfit .botton {
+    position: relative;
+}
+
+.positionProfit .botton button::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 109%;
+    top: 11px;
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid #73b6cc;
+    border-bottom: 60px solid transparent;
+}
+
 .positionMarker li {
     position: relative;
 }
-.positionMarker li:first-child::before {
+
+.positionMarker .left button:first-child::before {
     content: '';
     display: block;
     position: absolute;
@@ -1944,10 +2015,11 @@ margin-top: -55px;
     top: 0px;
     width: 0px;
     height: 0px;
-    border-right: 20px solid #f2f2f2;
+    border-right: 20px solid #70b0c6;
     border-top: 55px solid transparent;
 }
-.positionMarker li:last-child::after {
+
+.positionMarker .right button:last-child::after {
     content: '';
     display: block;
     position: absolute;
@@ -1962,7 +2034,8 @@ margin-top: -55px;
 .partner .btnConnect {
     position: relative;
 }
-.partner .btnConnect button::before{
+
+.partner .btnConnect button::before {
     content: '';
     display: block;
     position: absolute;
@@ -1977,6 +2050,7 @@ margin-top: -55px;
 .guid .LeftIcon {
     position: relative;
 }
+
 .guid .LeftIcon::before {
     content: '';
     display: block;
@@ -1988,23 +2062,27 @@ margin-top: -55px;
     border-right: 15px solid #a5345c;
     border-top: 20px solid transparent;
 }
+
 .guid .RightIcon {
     position: relative;
 }
+
 .guid .RightIcon::after {
     content: '';
     display: block;
     position: absolute;
     left: 100%;
-    top: 0px;
-    width: 0px;
-    height: 0px;
+    top: 0;
+    width: 0;
+    height: 0;
     border-left: 15px solid #a5345c;
     border-top: 20px solid transparent;
 }
+
 .positionDescription .image {
     position: relative;
 }
+
 .positionDescription .image::after {
     content: '';
     display: block;
@@ -2021,6 +2099,7 @@ margin-top: -55px;
 .ContentDeposit .positionItems {
     position: relative;
 }
+
 .ContentDeposit .positionItems .activ .bgcBlock::after {
     content: '';
     display: block;
@@ -2032,6 +2111,7 @@ margin-top: -55px;
     border-right: 250px solid #74b7cb;
     border-bottom: 25px solid transparent;
 }
+
 .ContentDeposit .positionItems .pasiv .bgcBlock::after {
     content: '';
     display: block;
@@ -2043,6 +2123,7 @@ margin-top: -55px;
     border-right: 250px solid #d7d7d7;
     border-bottom: 25px solid transparent;
 }
+
 .ContentDeposit .blockMarker::before {
     content: '';
     display: block;
@@ -2058,6 +2139,7 @@ margin-top: -55px;
 .ContentDeposit .right .imgFon {
     position: relative;
 }
+
 .ContentDeposit .right button::after {
     content: '';
     display: block;
@@ -2069,19 +2151,78 @@ margin-top: -55px;
     border-right: 25px solid #66cccc;
     border-bottom: 65px solid transparent;
 }
+
 /*создание псевдоэлементов для переключателей*/
+
+.planPosition2 .radioBtn {
+    display: none;
+}
+
+.planPosition2 .money li {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.planPosition2 .money .text label {
+    position: relative;
+    padding-left: 40px;
+    margin-left: -40px;
+}
+
+.planPosition2 .radioBtn:not(checked) + label::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: 9px;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #a8a8a8;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.planPosition2 .radioBtn:not(checked) + label::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: #ba3261;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.planPosition2 .radioBtn:checked + label::before {
+    border-color: #a8a8a8;
+}
+
+.planPosition2 .radioBtn:checked + label::after {
+    opacity: 1;
+}
+
+.planPosition2 .radioBtn + label {
+    cursor: pointer;
+}
+
 .positionCurr .select .radioBtn {
     display: none;
 }
+
 .positionCurr .select li {
     padding-left: 50px;
     /*position: relative;*/
 }
+
 .positionCurr .select label {
     position: relative;
     padding-left: 30px;
     margin-left: -30px;
 }
+
 .positionCurr .select .radioBtn:not(checked) + label::before {
     content: '';
     display: block;
@@ -2108,13 +2249,101 @@ margin-top: -55px;
     opacity: 0;
     transition: all 0.3s;
 }
+
 .positionCurr .select .radioBtn:checked + label::before {
     border-color: #d4d4d4;
 }
+
 .positionCurr .select .radioBtn:checked + label::after {
     opacity: 1;
 }
 
-.positionCurr .select .radioBtn +label {
+.positionCurr .select .radioBtn + label {
     cursor: pointer;
+}
+
+/*подключение карты в проект на главной странице*/
+.map {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.map iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/*начало стилизации банера псевдоклассами*/
+.baner .menu a:hover {
+    color: #66cccc;
+}
+
+.planPosition1 .percent a {
+    text-decoration: none;
+}
+
+.planPosition1 .pasiv .num:hover {
+    color: #73b6cc;
+}
+
+.marker button:hover {
+    color: #212428;
+    background-color: #f2f2f2;
+}
+
+.ContentDeposit .touch a {
+    display: block;
+    width: 360px;
+    height: 60px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ContentDeposit .touch li:hover {
+    background-color: #292d31;
+    border-left: 7px solid #a5345c;
+}
+
+.ContentDeposit .positionItems .activ .bgcFon:hover {
+    border: 5px solid #74b7cb;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.35);
+}
+
+/*создание наимации котировок валют - блок rate*/
+@keyframes blink {
+    0% {
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -o-transform: scale(0.95);
+        transform: scale(0.95);
+        opacity: 0.05;
+    }
+    50% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -o-transform: scale(0.95);
+        transform: scale(0.95);
+        opacity: 0;
+    }
+}
+
+.positionRate {
+    animation-name: blink;
+    -webkit-animation: blink 4s infinite ease-in-out;
+    -o-animation: blink 4s infinite ease-in-out;
+    animation: blink 4s infinite ease-in-out;
 }
