@@ -2425,222 +2425,172 @@ h1 {
     .wraper {
         width: 950px;
     }
-
     .positionH {
         width: 100%;
     }
-
     .timeData {
         margin-right: 0;
     }
-
     .language {
         margin-left: 0;
     }
-
     .positionB1 {
         width: 100%;
     }
-
-    /*.baner .menu a {*/
-    /*    line-height: 0;*/
-    /*}*/
     .baner .menu {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
     .baner .logo {
         margin-right: 50px;
     }
-
     .positionB2 {
         width: 100%;
     }
-
     .TagLine {
         width: 590px;
     }
-
     .account {
         width: initial;
     }
-
     .authorization .left, .register .right {
         float: none;
         margin-bottom: 10px;
     }
-
     .positionB3 .bgcFon {
         left: 0;
         width: 103%;
     }
-
     .positionB3 .bgiFon {
         left: 0;
     }
-
     .positionB3 .positionText0 {
         left: 0;
         top: -80px;
         width: 100%;
     }
-
     .calc .text0 {
         width: auto;
     }
-
     .positionRate {
         width: 100%;
     }
-
     .rate .cours:nth-child(even) {
         display: none;
     }
-
     .promo .positionPromo {
         width: 100%;
         height: 590px;
         padding-top: 95px;
     }
-
     .promo .bgiPromo {
         display: none;
     }
-
     .promo .video {
         height: 480px;
         margin-right: 70px;
     }
-
     .promo .bgiPlayer {
         width: 100%;
         height: 50%;
     }
-
     .promo .videoText span {
         width: 50%;
         display: block;
     }
-
     .promo .description h2 {
         margin-bottom: 0;
     }
-
     .promo .description .subtitl {
         margin-bottom: 0;
     }
-
     .positionMarker {
         width: 100%;
     }
-
     .positionTextStrategy .logo {
         display: none;
     }
-
     .positionTextStrategy {
         width: 100%;
         height: 450px;
         display: flex;
         justify-content: center;
     }
-
     .positionTextStrategy .LefTtext p {
         text-align: left;
     }
-
     .positionTextStrategy .text span[class*="icon"] {
         display: flex;
         order: -1;
     }
-
     .partner .bgiFon {
         background-image: none;
         width: 0;
         height: 0;
     }
-
     .partner .wraper {
         display: flex;
         justify-content: space-around;
     }
-
     .positionLevel {
         display: none;
     }
-
     .positionDesc {
         width: 100%;
         height: initial;
         margin-left: 0;
         margin-top: 0;
     }
-
     .positionDesc .description > div {
         float: none;
     }
-
     .positionDesc .titl {
         height: 120px;
         margin-top: 0px;
     }
-
     .btnConnect {
         margin-left: initial;
         margin-top: initial;
         align-self: flex-end;
     }
-
     .partner .btnConnect {
         position: initial;
     }
-
     .positionGuid {
         width: 100%;
         height: initial;
     }
-
     .positionGuid .title {
         width: initial;
         height: 130px;
     }
-
     .guid h2 {
         margin-top: initial;
     }
-
     .positionGuid .LeftItem {
         width: 100%;
     }
-
     .guid .LeftIcon {
         left: 110px;
     }
-
     .positionGuid .RightItem {
         width: 100%;
     }
-
     .positionGuid .RightItem {
         margin: 10px 0 30px 0px;
     }
-
     .statistics {
         height: 280px;
     }
-
     .statistics .imgFon {
         background-image: none;
         width: 100%;
         height: initial;
     }
-
     .positionStat {
         width: 100%;
         margin-left: initial;
     }
-
     .positionDescription .title {
         padding-top: 40px;
         margin-bottom: 20px;
