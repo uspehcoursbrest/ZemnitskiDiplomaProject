@@ -4,8 +4,8 @@
     <list default="true" id="b3afa759-fcab-407c-ae2a-de17071393e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/png/bgicalc.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/png/bgicalc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openDeposit.html" beforeDir="false" afterPath="$PROJECT_DIR$/openDeposit.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +23,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/openDeposit.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="163" column="45" selection-start-line="163" selection-start-column="45" selection-end-line="163" selection-end-column="45" />
+                <state relative-caret-position="2108">
+                  <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
                   <folding>
                     <element signature="n#footer#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -38,17 +38,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-425">
-                  <caret line="23" column="32" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="32" />
+                <state relative-caret-position="448">
+                  <caret line="693" column="26" selection-start-line="693" selection-start-column="26" selection-end-line="693" selection-end-column="26" />
                   <folding>
-                    <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
@@ -64,8 +60,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="165" selection-start-line="165" selection-end-line="165" />
+                <state relative-caret-position="313">
+                  <caret line="2104" column="10" selection-start-line="2104" selection-start-column="10" selection-end-line="2104" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -84,36 +80,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.ContentDeposit .textRight h2</find>
-      <find>icon</find>
-      <find>bgcFon</find>
-      <find>left</find>
-      <find>.left</find>
-      <find>imgFon</find>
-      <find>positionMarker</find>
-      <find>btnConnect</find>
-      <find>positionCurr</find>
-      <find>ContentDeposit</find>
-      <find>positionB3</find>
-      <find>planPosition1</find>
-      <find>text-deposit</find>
-      <find>text0</find>
-      <find>positionProfit</find>
-      <find>num</find>
-      <find>pasiv</find>
+      <find>.positionMarker .left button</find>
+      <find>.guid .LeftIcon</find>
+      <find>LeftIcon</find>
+      <find>RightIcon</find>
+      <find>.partner</find>
+      <find>header</find>
       <find>percent</find>
-      <find>ин</find>
-      <find>money</find>
-      <find>plan</find>
-      <find>planPosition2</find>
-      <find>marker</find>
+      <find>.menu</find>
+      <find>.account</find>
+      <find>bgImg</find>
+      <find>.positionB1</find>
+      <find>.baner .logo</find>
       <find>псев</find>
-      <find>touch</find>
-      <find>border-left</find>
-      <find>.ContentDeposit .positionItems .focus .bgcFon</find>
-      <find>icon-russia</find>
-      <find>language</find>
-      <find>positionB1</find>
+      <find>.baner .menu</find>
+      <find>.positionProfit</find>
+      <find>.positionB3 .bgiFon</find>
+      <find>.positionB3 .bgcFon</find>
+      <find>.positionRate</find>
+      <find>.baner</find>
+      <find>.promo .video</find>
+      <find>.promo .description .subtitl</find>
+      <find>.promo .positionPromo</find>
+      <find>.positionTextStrategy .text span[class*=&quot;icon&quot;]</find>
+      <find>.positionTextStrategy</find>
+      <find>.positionDesc .titl</find>
+      <find>.partner .bgiFon</find>
+      <find>.positionDesc</find>
+      <find>.positionGuid .title</find>
+      <find>.positionDescription .image</find>
+      <find>.btnConnect</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,13 +120,13 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/img/openDeposit.html" />
-        <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/openDeposit.html" />
+        <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="425" />
     <option name="y" value="21" />
     <option name="width" value="787" />
@@ -141,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,7 +159,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,12 +232,17 @@
       <workItem from="1560281343352" duration="4233000" />
       <workItem from="1560428748442" duration="2069000" />
       <workItem from="1560454087122" duration="15756000" />
-      <workItem from="1560495376596" duration="5984000" />
+      <workItem from="1560495376596" duration="6187000" />
+      <workItem from="1560501680787" duration="161000" />
+      <workItem from="1560840241748" duration="13133000" />
+      <workItem from="1560870673254" duration="4390000" />
+      <workItem from="1560886730140" duration="14015000" />
+      <workItem from="1560923896964" duration="974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182890000" />
+    <option name="totallyTimeSpent" value="215766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -281,8 +282,8 @@
     <entry file="file://$PROJECT_DIR$/img/openDeposit.html" />
     <entry file="file://$PROJECT_DIR$/openDeposit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="163" column="45" selection-start-line="163" selection-start-column="45" selection-end-line="163" selection-end-column="45" />
+        <state relative-caret-position="2108">
+          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
           <folding>
             <element signature="n#footer#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -294,17 +295,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="448">
+          <caret line="693" column="26" selection-start-line="693" selection-start-column="26" selection-end-line="693" selection-end-column="26" />
           <folding>
-            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
@@ -314,8 +311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        <state relative-caret-position="313">
+          <caret line="2104" column="10" selection-start-line="2104" selection-start-column="10" selection-end-line="2104" selection-end-column="10" />
         </state>
       </provider>
     </entry>

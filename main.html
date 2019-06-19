@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -10,9 +11,6 @@
 </head>
 <body>
 <!--Блок Хэдер-->
-<!--<div class="map">-->
-<!--    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2450.7935170433143!2d23.697717638636544!3d52.1016893564724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210be2cf673d61%3A0x14f8116bbe9838ac!2z0YPQuy4g0JzQtdC90LbQuNC90YHQutC-0LPQviAxMCwg0JHRgNC10YHRgg!5e0!3m2!1sru!2sby!4v1560430668781!5m2!1sru!2sby" frameborder="0" style="border:0" allowfullscreen></iframe>-->
-<!--</div>-->
 <div class="header">
     <div class="wraper">
         <div class="positionH">
@@ -66,34 +64,32 @@
                 <span>Trade Finance</span>
                 <a href="#">Главная</a>
             </div>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="#"><span>Главная</span></a>
-                    </li>
-                    <li>
-                        <a href="#"><span>о компании</span></a>
-                    </li>
-                    <li>
-                        <a href="#"><span>инвесторам</span></a>
-                    </li>
-                    <li>
-                        <a href="#"><span>партнёрам</span></a>
-                    </li>
-                    <li>
-                        <a href="#"><span>новости</span></a>
-                    </li>
-                    <li>
-                        <a href="#"><span>FAQ</span></a>
-                    </li>
-                    <li>
-                        <a href="#"><span>соглашение</span></a>
-                    </li>
-                    <li>
-                        <a href="#"><span>контакты</span></a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#"><span>Главная</span></a>
+                </li>
+                <li>
+                    <a href="#"><span>о компании</span></a>
+                </li>
+                <li>
+                    <a href="#"><span>инвесторам</span></a>
+                </li>
+                <li>
+                    <a href="#"><span>партнёрам</span></a>
+                </li>
+                <li>
+                    <a href="#"><span>новости</span></a>
+                </li>
+                <li>
+                    <a href="#"><span>FAQ</span></a>
+                </li>
+                <li>
+                    <a href="#"><span>соглашение</span></a>
+                </li>
+                <li>
+                    <a href="#"><span>контакты</span></a>
+                </li>
+            </ul>
         </div>
         <div class="positionB2">
             <div class="TagLine">
@@ -121,7 +117,7 @@
                         <div class="bgiFon">
                             <div class="positionText0">
                                 <div class="text0">
-                                    <span>Рассчитайте рибыль прямо сейчас:</span>
+                                    <span>Рассчитайте прибыль прямо сейчас:</span>
                                 </div>
                             </div>
                             <div class="plan planPosition1 clear">
@@ -322,7 +318,7 @@
             </div>
             <div class="description">
                 <div class="title">
-                    <h2>Trade Finance - Получайте стабильный доход!</h2>
+                    <h2>Trade Finance - <br>Получайте стабильный доход!</h2>
                 </div>
                 <div class="subtitl">
                     <span>Trade Finance - инветиционная платформа, позволяющая зарабатывать на вкладах в криптовалюты.</span>
@@ -344,9 +340,15 @@
         <div class="positionMarker .clear">
             <div class="marker">
                 <ul>
-                    <li class="left"><button>НАША СТРАТЕГИЯ</button></li>
-                    <li class="center"><button>НАШИ ПРЕИМУЩЕСТВА</button></li>
-                    <li class="right"><button>СТАТИСТИКА ПРИБЫЛИ</button></li>
+                    <li class="left">
+                        <button>НАША СТРАТЕГИЯ</button>
+                    </li>
+                    <li class="center">
+                        <button>НАШИ ПРЕИМУЩЕСТВА</button>
+                    </li>
+                    <li class="right">
+                        <button>СТАТИСТИКА ПРИБЫЛИ</button>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -396,8 +398,8 @@
 </div>
 <!--Блок партнерской программы-->
 <div class="partner">
-    <div class="bgiFon">
-        <div class="wraper">
+    <div class="wraper">
+        <div class="bgiFon">
             <div class="positionLevel">
                 <div class="level">
                     <div class="point">
@@ -594,11 +596,13 @@
             </div>
             <div class="all .clear">
                 <div class="item .clear">
-                    <div class="image">
-                        <span class="icon-license"></span>
-                    </div>
-                    <div class="item-title">
-                        <span>Лицензированная и регулируемая компания</span>
+                    <div class="imgTitle">
+                        <div class="image">
+                            <span class="icon-license"></span>
+                        </div>
+                        <div class="item-title">
+                            <span>Лицензированная и регулируемая компания</span>
+                        </div>
                     </div>
                     <div class="text">
                         <p>Бренд <span>Trade Finance</span> является торговой маркой компании Performance capital
@@ -609,11 +613,13 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="image">
-                        <span class="icon-client"></span>
-                    </div>
-                    <div class="item-title">
-                        <span>Особое отношение к каждому клиенту</span>
+                    <div class="imgTitle">
+                        <div class="image">
+                            <span class="icon-client"></span>
+                        </div>
+                        <div class="item-title">
+                            <span>Особое отношение к каждому клиенту</span>
+                        </div>
                     </div>
                     <div class="text">
                         <p>Потребности и желания клиента для <span>Trade Finance</span> – превыше всего, вне зависимости
@@ -623,13 +629,16 @@
                             качественное
                             обслуживание и поддержку.</p>
                     </div>
+
                 </div>
                 <div class="item">
-                    <div class="image">
-                        <span class="icon-circs"></span>
-                    </div>
-                    <div class="item-title">
-                        <span>Прозрачные и честные условия</span>
+                    <div class="imgTitle">
+                        <div class="image">
+                            <span class="icon-circs"></span>
+                        </div>
+                        <div class="item-title">
+                            <span>Прозрачные и честные условия</span>
+                        </div>
                     </div>
                     <div class="text">
                         <p>Мы прямо и открыто заявляем об условиях сотрудничества, без скрытых положений. Это касается
@@ -641,11 +650,13 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="image">
-                        <span class="icon-world"></span>
-                    </div>
-                    <div class="item-title">
-                        <span>Известность во всем мире</span>
+                    <div class="imgTitle">
+                        <div class="image">
+                            <span class="icon-world"></span>
+                        </div>
+                        <div class="item-title">
+                            <span>Известность во всем мире</span>
+                        </div>
                     </div>
                     <div class="text">
                         <p>Наша компания насчитывает уже более 25 тысяч клиентов в 62 странах. Через год мы планируем
@@ -656,11 +667,13 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="image">
-                        <span class="icon-tool"></span>
-                    </div>
-                    <div class="item-title">
-                        <span>Набор рекламных инструментов</span>
+                    <div class="imgTitle">
+                        <div class="image">
+                            <span class="icon-tool"></span>
+                        </div>
+                        <div class="item-title">
+                            <span>Набор рекламных инструментов</span>
+                        </div>
                     </div>
                     <div class="text">
                         <p>Наши клиенты могут принимать участие в агентской программе <span>Trade Finance</span>,
@@ -671,11 +684,13 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="image">
-                        <span class="icon-comfort"></span>
-                    </div>
-                    <div class="item-title">
-                        <span>Простота и удобство</span>
+                    <div class="imgTitle">
+                        <div class="image">
+                            <span class="icon-comfort"></span>
+                        </div>
+                        <div class="item-title">
+                            <span>Простота и удобство</span>
+                        </div>
                     </div>
                     <div class="text">
                         <p>Все наши сервисы и системы созданы и обновляются исключительно в интересах клиентов. Все
@@ -800,6 +815,9 @@
         </div>
     </div>
 </div>
+<!--<div class="map">-->
+<!--    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2450.7935170433143!2d23.697717638636544!3d52.1016893564724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210be2cf673d61%3A0x14f8116bbe9838ac!2z0YPQuy4g0JzQtdC90LbQuNC90YHQutC-0LPQviAxMCwg0JHRgNC10YHRgg!5e0!3m2!1sru!2sby!4v1560430668781!5m2!1sru!2sby" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+<!--</div>-->
 <!--Блок подвала-->
 <div class="footer">
     <div class="wraper">

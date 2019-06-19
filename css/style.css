@@ -94,6 +94,7 @@ ul {
     padding-left: 10px;
 
 }
+
 .language select {
     border: 0;
     padding-left: 11px;
@@ -147,23 +148,28 @@ ul {
 /*baner*/
 .baner {
     background-image: url(../img/jpg/fonbanner.jpg);
-    height: 900px;
+    height: 877px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .positionB1 {
-    height: 102px;
     width: 1170px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 97px;
+    padding-top: 45px;
 }
+
 .baner .menu {
-    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 835px;
+    align-self: flex-end;
 }
+
 .baner .menu a {
     font-size: 14px;
     line-height: 36px;
@@ -173,14 +179,6 @@ ul {
     text-transform: uppercase;
 }
 
-.menu li {
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.menu li + li {
-    margin-left: 23px;
-}
 
 .baner .logo, .baner .logo span {
     display: flex;
@@ -266,11 +264,12 @@ h1 {
 }
 
 .baner .logo {
-    height: 110px;
+    height: 63px;
     width: 200px;
     background-image: url(../img/png/logo1.png);
     background-repeat: no-repeat;
     background-position: left bottom;
+    padding-bottom: 5px;
 }
 
 .positionB3 {
@@ -288,7 +287,7 @@ h1 {
     width: 1170px;
     background-repeat: no-repeat;
     top: 47px;
-    left: -185px;
+    left: 35px;
     /*background-position: center;*/
     /*background-size: cover;*/
     /*left: -290px;*/
@@ -301,25 +300,39 @@ h1 {
     width: 960px;
     background-color: rgba(27, 37, 42, 0.85);
     left: 185px;
-    top: -15px;
+    top: 0px;
 }
 
 .positionB3 .positionText0 {
     position: absolute;
     top: 65px;
+    left: -220px;
 }
 
 .positionB3 .planPosition1 {
     height: 60px;
     width: 900px;
     margin-top: -7px;
-    margin-bottom: 55px;
-    margin-left: 290px;
+    margin-bottom: 21px;
+    margin-left: 73px;
 }
 
 .positionB3 .planPosition1 .percent {
     margin-top: -30px;
+    position: relative;
 }
+
+.positionB3 .planPosition1 .percent .bgImg {
+    /*position: absolute;*/
+    width: 105px;
+    height: 30px;
+    background-image: url(../img/png/bgiPercent.png);
+    background-repeat: no-repeat;
+    /*background-position: bottom center;*/
+    background-size: cover;
+    z-index: 3;
+}
+
 
 .positionB3 .planPosition1 > div {
     float: left;
@@ -334,7 +347,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin-left: 290px;
+    margin-left: 75px;
 }
 
 .planPosition2 .entersum {
@@ -363,7 +376,7 @@ h1 {
 .positionDeposit {
     height: 80px;
     width: 735px;
-    margin-left: 320px;
+    margin-left: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -387,7 +400,7 @@ h1 {
 }
 
 .calc .text0 {
-    width: 180px;
+    width: 190px;
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
@@ -464,6 +477,24 @@ h1 {
     color: #cc6699;
 }
 
+.plan.planPosition1 .text {
+    position: relative;
+    z-index: 1;
+}
+
+.plan.planPosition1 .text::after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: -3px;
+    width: calc(100% + 22px);
+    height: 120%;
+    background: #a5345c;
+    z-index: -1;
+    transform: skewX(15deg);
+}
+
 .entersum input {
     font-size: 17px;
     line-height: 36px;
@@ -518,11 +549,12 @@ h1 {
     font-size: 14px;
     line-height: 47px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .profit .num {
     font-size: 33px;
-    line-height: 47px;
+    line-height: 28px;
     font-weight: 700;
 }
 
@@ -535,18 +567,19 @@ h1 {
     margin-top: 11px;
     width: 240px;
     height: 60px;
-    margin-left: -20px;
+    margin-left: -45px;
     background-image: none;
     background-color: #73b6cc;
     border: none;
+    position: relative;
 }
 
 .positionProfit {
     width: 900px;
     height: 70px;
     float: left;
-    margin-left: 290px;
-    margin-top: -20px;
+    margin-left: 75px;
+    margin-top: 13px;
 }
 
 .positionProfit .day,
@@ -596,9 +629,9 @@ h1 {
 
 /*блок promo*/
 .promo .positionPromo {
-    height: 670px;
+    height: 727px;
     width: 1170px;
-    padding-top: 120px;
+    padding-top: 170px;
     display: flex;
     justify-content: space-between;
 }
@@ -723,7 +756,6 @@ h1 {
 
 /*блок strategy*/
 .strategy {
-    height: 560px;
     background-color: #F2F2F2;
 }
 
@@ -796,7 +828,7 @@ h1 {
 .positionTextStrategy {
     height: 555px;
     width: 1170px;
-    margin-top: 115px;
+    margin-top: 55px;
 }
 
 .positionTextStrategy > div {
@@ -845,7 +877,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+    margin-top: 15px;
 }
 
 .positionTextStrategy .logoStrategy {
@@ -856,6 +888,7 @@ h1 {
     background-position: center;
     background-size: cover;
     position: absolute;
+    margin-top: 30px;
 }
 
 .icon-trade, .icon-company, .icon-work, .icon-target {
@@ -894,6 +927,7 @@ h1 {
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
+    position: relative;
 }
 
 .partner {
@@ -902,19 +936,19 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .partner .bgiFon {
-    position: absolute;
     height: 345px;
     width: 1170px;
     background-image: url(../img/png/partner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    left: 380px;
-    top: 145px;
+    position: absolute;
 }
 
 .positionLevel .level {
@@ -923,6 +957,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 15px;
 
 }
 
@@ -977,9 +1012,10 @@ h1 {
 
 .partner .point .percent {
     font-size: 30px;
-    line-height: 25px;
+    line-height: 35px;
     font-weight: 700;
     color: #66cccc;
+    margin-top: -10px;
 }
 
 .partner .point .text {
@@ -1018,8 +1054,9 @@ h1 {
 .btnConnect {
     height: 65px;
     width: 265px;
-    margin-left: 827px;
-    margin-top: 53px;
+    left: 825px;
+    top: 25px;
+    position: relative;
 }
 
 .btnConnect button {
@@ -1036,6 +1073,7 @@ h1 {
     font-weight: 700;
     color: #333333;
     text-transform: uppercase;
+    margin-top: 28px;
 }
 
 .positionGuid {
@@ -1057,6 +1095,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -7px;
+    margin-bottom: 20px;
 }
 
 .positionGuid .LeftNum {
@@ -1070,8 +1110,8 @@ h1 {
     top: 25px;
 }
 
-.positionGuid .LeftIcon {
-    height: 20px;
+.guid .LeftIcon {
+    height: 25px;
     width: 35px;
     background-color: #a5345c;
     position: absolute;
@@ -1102,7 +1142,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0 10px 150px;
+    margin: 10px 0 30px 150px;
 }
 
 .positionGuid .RightText {
@@ -1131,8 +1171,8 @@ h1 {
     position: relative;
 }
 
-.positionGuid .RightIcon {
-    height: 20px;
+.guid .RightIcon {
+    height: 25px;
     width: 35px;
     background-color: #a5345c;
     position: absolute;
@@ -1244,8 +1284,8 @@ h1 {
     color: #333333;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 115px;
-    margin-bottom: 40px;
+    padding-top: 102px;
+    margin-bottom: 28px;
 }
 
 .positionDescription .title-text {
@@ -1258,7 +1298,7 @@ h1 {
 }
 
 .positionDescription .item {
-    height: 220px;
+    height: 240px;
     width: 30%;
     float: left;
     margin-bottom: 75px;
@@ -1272,6 +1312,7 @@ h1 {
     background-color: #73b6cc;
     position: relative;
     margin-right: 20px;
+    margin-top: -10px;
 }
 
 .positionDescription [class*="icon"] {
@@ -1286,7 +1327,10 @@ h1 {
     font-weight: 700;
     color: #993366;
     text-transform: uppercase;
-    margin-bottom: 35px;
+}
+.description .imgTitle {
+    margin-bottom: 30px;
+    height: 35px;
 }
 
 .description .all .text {
@@ -1965,6 +2009,12 @@ h1 {
 .icon-fb, .icon-yt, .icon-tw, .icon-vk {
     border: 1px solid #afafaf;
     border-radius: 50%;
+    display: block;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
 }
 
 /*создание блока со ссылкой на главной странице*/
@@ -1991,15 +2041,27 @@ h1 {
     position: relative;
 }
 
+.calc .text0::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 125%;
+    height: 4px;
+    background: #a5345c;
+    transform: skewX(25deg);
+}
+
 .positionProfit .botton button::before {
     content: '';
     display: block;
     position: absolute;
-    right: 109%;
-    top: 11px;
+    right: 100%;
+    top: 0px;
     width: 0px;
     height: 0px;
-    border-right: 25px solid #73b6cc;
+    border-right: 22px solid #73b6cc;
     border-bottom: 60px solid transparent;
 }
 
@@ -2040,7 +2102,7 @@ h1 {
     display: block;
     position: absolute;
     right: 100%;
-    top: 0px;
+    top: 85%;
     width: 0px;
     height: 0px;
     border-right: 25px solid #73b6cc;
@@ -2059,8 +2121,8 @@ h1 {
     top: 0px;
     width: 0px;
     height: 0px;
-    border-right: 15px solid #a5345c;
-    border-top: 20px solid transparent;
+    border-right: 10px solid #a5345c;
+    border-bottom: 25px solid transparent;
 }
 
 .guid .RightIcon {
@@ -2075,8 +2137,8 @@ h1 {
     top: 0;
     width: 0;
     height: 0;
-    border-left: 15px solid #a5345c;
-    border-top: 20px solid transparent;
+    border-left: 10px solid #a5345c;
+    border-bottom: 25px solid transparent;
 }
 
 .positionDescription .image {
@@ -2313,7 +2375,7 @@ h1 {
     box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.35);
 }
 
-/*создание наимации котировок валют - блок rate*/
+/*создание анимации котировок валют - блок rate*/
 @keyframes blink {
     0% {
         -webkit-transform: scale(0.95);
@@ -2346,4 +2408,287 @@ h1 {
     -webkit-animation: blink 4s infinite ease-in-out;
     -o-animation: blink 4s infinite ease-in-out;
     animation: blink 4s infinite ease-in-out;
+}
+
+.positionMarker .left button:first-child:hover::before {
+    border-right: 20px solid #f2f2f2;
+    border-top: 55px solid transparent;
+}
+
+.positionMarker .right button:last-child:hover::after {
+    border-left: 20px solid #f2f2f2;
+    border-top: 55px solid transparent;
+}
+
+/*адаптивная верстка*/
+@media (max-width: 1199px) {
+    .wraper {
+        width: 950px;
+    }
+
+    .positionH {
+        width: 100%;
+    }
+
+    .timeData {
+        margin-right: 0;
+    }
+
+    .language {
+        margin-left: 0;
+    }
+
+    .positionB1 {
+        width: 100%;
+    }
+
+    /*.baner .menu a {*/
+    /*    line-height: 0;*/
+    /*}*/
+    .baner .menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .baner .logo {
+        margin-right: 50px;
+    }
+
+    .positionB2 {
+        width: 100%;
+    }
+
+    .TagLine {
+        width: 590px;
+    }
+
+    .account {
+        width: initial;
+    }
+
+    .authorization .left, .register .right {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .positionB3 .bgcFon {
+        left: 0;
+        width: 103%;
+    }
+
+    .positionB3 .bgiFon {
+        left: 0;
+    }
+
+    .positionB3 .positionText0 {
+        left: 0;
+        top: -80px;
+        width: 100%;
+    }
+
+    .calc .text0 {
+        width: auto;
+    }
+
+    .positionRate {
+        width: 100%;
+    }
+
+    .rate .cours:nth-child(even) {
+        display: none;
+    }
+
+    .promo .positionPromo {
+        width: 100%;
+        height: 590px;
+        padding-top: 95px;
+    }
+
+    .promo .bgiPromo {
+        display: none;
+    }
+
+    .promo .video {
+        height: 480px;
+        margin-right: 70px;
+    }
+
+    .promo .bgiPlayer {
+        width: 100%;
+        height: 50%;
+    }
+
+    .promo .videoText span {
+        width: 50%;
+        display: block;
+    }
+
+    .promo .description h2 {
+        margin-bottom: 0;
+    }
+
+    .promo .description .subtitl {
+        margin-bottom: 0;
+    }
+
+    .positionMarker {
+        width: 100%;
+    }
+
+    .positionTextStrategy .logo {
+        display: none;
+    }
+
+    .positionTextStrategy {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .positionTextStrategy .LefTtext p {
+        text-align: left;
+    }
+
+    .positionTextStrategy .text span[class*="icon"] {
+        display: flex;
+        order: -1;
+    }
+
+    .partner .bgiFon {
+        background-image: none;
+        width: 0;
+        height: 0;
+    }
+
+    .partner .wraper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .positionLevel {
+        display: none;
+    }
+
+    .positionDesc {
+        width: 100%;
+        height: initial;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .positionDesc .description > div {
+        float: none;
+    }
+
+    .positionDesc .titl {
+        height: 120px;
+        margin-top: 0px;
+    }
+
+    .btnConnect {
+        margin-left: initial;
+        margin-top: initial;
+        align-self: flex-end;
+    }
+
+    .partner .btnConnect {
+        position: initial;
+    }
+
+    .positionGuid {
+        width: 100%;
+        height: initial;
+    }
+
+    .positionGuid .title {
+        width: initial;
+        height: 130px;
+    }
+
+    .guid h2 {
+        margin-top: initial;
+    }
+
+    .positionGuid .LeftItem {
+        width: 100%;
+    }
+
+    .guid .LeftIcon {
+        left: 110px;
+    }
+
+    .positionGuid .RightItem {
+        width: 100%;
+    }
+
+    .positionGuid .RightItem {
+        margin: 10px 0 30px 0px;
+    }
+
+    .statistics {
+        height: 280px;
+    }
+
+    .statistics .imgFon {
+        background-image: none;
+        width: 100%;
+        height: initial;
+    }
+
+    .positionStat {
+        width: 100%;
+        margin-left: initial;
+    }
+
+    .positionDescription .title {
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+    .icon-license, .icon-client, .icon-circs, .icon-world, .icon-tool, .icon-comfort {
+        font-size: 20px;
+    }
+    .positionDescription .image {
+        display: none;
+    }
+    .payments {
+        height: 200px;
+    }
+    .payments .bgiFon {
+        background-image: none;
+        width: 100%;
+    }
+    .payments .image {
+        width: 100%;
+    }
+    .about .list {
+        display: none;
+    }
+    .positionAbout {
+        width: 100%;
+    }
+    .footer .wraper {
+        width: 100%;
+    }
+    .footer .text {
+        width: 60%;
+    }
+}
+
+@media (max-width: 991px) {
+    .wraper {
+        /*width: ;*/
+    }
+}
+
+@media (max-width: 767px) {
+    .wraper {
+        /*width: ;*/
+    }
+}
+
+@media (max-width: 479px) {
+    .wraper {
+        /*width: ;*/
+    }
 }
