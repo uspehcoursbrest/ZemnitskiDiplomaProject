@@ -37,12 +37,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="466">
-                  <caret line="687" column="43" lean-forward="true" selection-start-line="687" selection-start-column="43" selection-end-line="687" selection-end-column="43" />
+                <state relative-caret-position="330">
+                  <caret line="531" column="10" lean-forward="true" selection-start-line="531" selection-start-column="10" selection-end-line="531" selection-end-column="10" />
                   <folding>
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
@@ -59,8 +57,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="499">
-                  <caret line="2700" column="17" lean-forward="true" selection-start-line="2700" selection-start-column="17" selection-end-line="2700" selection-end-column="17" />
+                <state relative-caret-position="193">
+                  <caret line="2954" column="19" lean-forward="true" selection-start-line="2954" selection-start-column="19" selection-end-line="2954" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -79,9 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.partner</find>
-      <find>header</find>
-      <find>percent</find>
       <find>.menu</find>
       <find>.account</find>
       <find>bgImg</find>
@@ -109,6 +104,9 @@
       <find>Депозит включен</find>
       <find>.positionGuid .LeftNum</find>
       <find>.positionGuid .LeftText</find>
+      <find>imgTitle</find>
+      <find>pasiv</find>
+      <find>Пополнить счет в нашей компании вы можете с помощью</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,12 +118,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/img/openDeposit.html" />
         <option value="$PROJECT_DIR$/openDeposit.html" />
-        <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/main.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="425" />
     <option name="y" value="21" />
     <option name="width" value="787" />
@@ -136,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,14 +156,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ZemnitskiGroupProject/ZemnitskiGroupProject" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -239,12 +237,13 @@
       <workItem from="1560923896964" duration="1292000" />
       <workItem from="1560950281717" duration="1773000" />
       <workItem from="1560976597747" duration="5450000" />
-      <workItem from="1561010339539" duration="8785000" />
+      <workItem from="1561010339539" duration="13296000" />
+      <workItem from="1561104923932" duration="842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232092000" />
+    <option name="totallyTimeSpent" value="237445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -297,12 +296,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="687" column="43" lean-forward="true" selection-start-line="687" selection-start-column="43" selection-end-line="687" selection-end-column="43" />
+        <state relative-caret-position="330">
+          <caret line="531" column="10" lean-forward="true" selection-start-line="531" selection-start-column="10" selection-end-line="531" selection-end-column="10" />
           <folding>
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
@@ -313,8 +310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="2700" column="17" lean-forward="true" selection-start-line="2700" selection-start-column="17" selection-end-line="2700" selection-end-column="17" />
+        <state relative-caret-position="193">
+          <caret line="2954" column="19" lean-forward="true" selection-start-line="2954" selection-start-column="19" selection-end-line="2954" selection-end-column="19" />
         </state>
       </provider>
     </entry>

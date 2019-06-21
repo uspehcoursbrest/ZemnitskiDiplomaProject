@@ -538,7 +538,7 @@ h1 {
     font-weight: 400;
     color: #999999;
     text-align: center;
-    /*margin-right: 55px;*/
+    width: 180px;
 }
 
 .profit span {
@@ -2352,6 +2352,9 @@ h1 {
 .planPosition1 .pasiv .num:hover {
     color: #73b6cc;
 }
+.plan.planPosition1 .pasiv .text:hover::after {
+    background-color: #73b6cc;
+}
 
 .marker button:hover {
     color: #212428;
@@ -2768,6 +2771,9 @@ h1 {
         padding-top: 20px;
         justify-content: center;
     }
+    .text-deposit {
+        width: 100%;
+    }
 
     .positionProfit {
         margin-left: initial;
@@ -2960,12 +2966,44 @@ h1 {
 
 @media (max-width: 767px) {
     .wraper {
-        /*width: ;*/
+        width: 100%;
+    }
+    h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .positionB1 {
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+    .planPosition2 {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .positionDeposit {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .positionProfit .botton {
+        float: right;
+    }
+    .positionProfit .day, .positionProfit .ago {
+        margin-right: 20px;
+    }
+    .positionProfit .day {
+        padding-left: 10px;
+    }
+    .profit .botton button {
+        width: 200px;
+    }
+    .positionB3 .planPosition1 {
+        padding-left: 10px;
+        padding-right: 0;
     }
 }
 
 @media (max-width: 479px) {
     .wraper {
-        /*width: ;*/
+        width: 100%;
     }
 }
