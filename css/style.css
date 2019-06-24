@@ -86,7 +86,7 @@ ul {
 .icon-russia .path2, .icon-russia .path3 {
     position: absolute;
     top: 0;
-    left: 30px;
+    left: 28px;
 }
 
 .language .lang {
@@ -284,14 +284,10 @@ h1 {
     position: absolute;
     background-image: url(../img/png/bgicalc.png);
     height: 365px;
-    width: 1170px;
+    width: 952px;
     background-repeat: no-repeat;
     top: 47px;
     left: 35px;
-    /*background-position: center;*/
-    /*background-size: cover;*/
-    /*left: -290px;*/
-    /*top: 30px;*/
 }
 
 .positionB3 .bgcFon {
@@ -328,11 +324,15 @@ h1 {
     height: 30px;
     background-image: url(../img/png/bgiPercent.png);
     background-repeat: no-repeat;
-    /*background-position: bottom center;*/
     background-size: cover;
     z-index: 3;
 }
-
+.positionB3 .percent.select .num {
+    color: #66cccc;
+}
+.plan.planPosition1 .select .text::after {
+    background: #66cccc;
+}
 
 .positionB3 .planPosition1 > div {
     float: left;
@@ -441,13 +441,6 @@ h1 {
     color: #cc3366;
 
 }
-
-/*.plan .activ .num {*/
-/*    font-size: 30px;*/
-/*    line-height: 25px;*/
-/*    font-weight: 700;*/
-/*    color: #66cccc;*/
-/*}*/
 
 .plan .noactiv .num {
     font-size: 30px;
@@ -767,7 +760,6 @@ h1 {
 }
 
 .strategy .marker {
-
     margin-top: -55px;
 }
 
@@ -2349,10 +2341,10 @@ h1 {
     text-decoration: none;
 }
 
-.planPosition1 .pasiv .num:hover {
+.planPosition1 .pasiv a:hover .num{
     color: #73b6cc;
 }
-.plan.planPosition1 .pasiv .text:hover::after {
+.plan.planPosition1 .pasiv a:hover .text::after {
     background-color: #73b6cc;
 }
 
@@ -2379,7 +2371,30 @@ h1 {
     box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.35);
 }
 
-/*создание анимации котировок валют - блок rate*/
+#slaider {
+    position: relative;
+    height: 360px;
+}
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 360px;
+    opacity: 0;
+    z-index: 1;
+    background-position: center;
+    -webkit-transition: opacity 7s;
+    -moz-transition: opacity 7s;
+    -ms-transition: opacity 7s;
+    -o-transition: opacity 7s;
+    transition: opacity 7s;
+}
+.slide.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
 @keyframes blink {
     0% {
         -webkit-transform: scale(0.95);
