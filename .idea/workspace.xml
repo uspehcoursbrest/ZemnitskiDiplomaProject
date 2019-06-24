@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3afa759-fcab-407c-ae2a-de17071393e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openDeposit.html" beforeDir="false" afterPath="$PROJECT_DIR$/openDeposit.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,24 +20,41 @@
     <splitter split-orientation="horizontal" split-proportion="0.5024911">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="358">
-                  <caret line="129" column="51" selection-start-line="129" selection-start-column="44" selection-end-line="129" selection-end-column="51" />
+                <state relative-caret-position="395">
+                  <caret line="345" column="44" selection-start-line="345" selection-start-column="44" selection-end-line="345" selection-end-column="44" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/openDeposit.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-557">
+                  <caret line="162" column="45" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="45" />
+                  <folding>
+                    <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#footer#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -50,8 +67,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="329" column="32" selection-start-line="329" selection-end-line="329" selection-end-column="32" />
+                <state relative-caret-position="602">
+                  <caret line="2364" column="37" selection-start-line="2364" selection-end-line="2364" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -59,8 +76,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="618">
-                  <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+                <state relative-caret-position="550">
+                  <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -80,9 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.positionB1</find>
-      <find>.baner .logo</find>
-      <find>псев</find>
       <find>.baner .menu</find>
       <find>.positionProfit</find>
       <find>.positionB3 .bgiFon</find>
@@ -106,10 +120,13 @@
       <find>imgTitle</find>
       <find>pasiv</find>
       <find>Пополнить счет в нашей компании вы можете с помощью</find>
-      <find>hover</find>
       <find>percent</find>
       <find>.plan .pasiv .num</find>
       <find>select</find>
+      <find>marker</find>
+      <find>.strategy .marker button</find>
+      <find>focus</find>
+      <find>hover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,14 +137,14 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/img/openDeposit.html" />
-        <option value="$PROJECT_DIR$/openDeposit.html" />
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/openDeposit.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="425" />
     <option name="y" value="21" />
     <option name="width" value="787" />
@@ -239,12 +256,12 @@
       <workItem from="1561010339539" duration="13296000" />
       <workItem from="1561104923932" duration="842000" />
       <workItem from="1561365378593" duration="9756000" />
-      <workItem from="1561405786253" duration="3447000" />
+      <workItem from="1561405786253" duration="9830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250648000" />
+    <option name="totallyTimeSpent" value="257031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -282,30 +299,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/openDeposit.html" />
-    <entry file="file://$PROJECT_DIR$/openDeposit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
-          <folding>
-            <element signature="n#footer#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="129" column="51" selection-start-line="129" selection-start-column="44" selection-end-line="129" selection-end-column="51" />
+        <state relative-caret-position="395">
+          <caret line="345" column="44" selection-start-line="345" selection-start-column="44" selection-end-line="345" selection-end-column="44" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
@@ -316,17 +319,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/openDeposit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557">
+          <caret line="162" column="45" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="329" column="32" selection-start-line="329" selection-end-line="329" selection-end-column="32" />
+        <state relative-caret-position="602">
+          <caret line="2364" column="37" selection-start-line="2364" selection-end-line="2364" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="550">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
         </state>
       </provider>
     </entry>

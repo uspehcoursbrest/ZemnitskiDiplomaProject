@@ -775,6 +775,17 @@ h1 {
     border: 0;
 }
 
+.strategy .marker button.activ {
+    color: #212428;
+    background-color: #F2F2F2;
+}
+.positionMarker .right button.activ:last-child::after {
+    border-left: 20px solid #F2F2F2;
+}
+.positionMarker .left button.activ:first-child::before {
+    border-right: 20px solid #f2f2f2;
+}
+
 .positionMarker {
     height: 55px;
     width: 1170px;
@@ -800,21 +811,6 @@ h1 {
 
 .strategy .marker ul li + li {
     margin-left: 15px;
-}
-
-.strategy .marker .activ {
-    /*color: #333333;*/
-    height: 55px;
-    width: 280px;
-    /*background-color: #f2f2f2;*/
-    margin-right: 15px;
-}
-
-.strategy .marker .pasiv {
-    /*color: #ffffff;*/
-    height: 55px;
-    width: 280px;
-    /*background-color: #70b0c6;*/
 }
 
 .positionTextStrategy {
@@ -1879,10 +1875,10 @@ h1 {
     align-items: center;
 }
 
-/*.ContentDeposit .positionItems .focus .bgcFon {*/
-/*    border: 5px solid #74b7cb;*/
-/*    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.35);*/
-/*}*/
+.ContentDeposit .positionItems .focus .bgcFon {
+    border: 5px solid #74b7cb;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.35);
+}
 
 .ContentDeposit .positionItems .pasiv .bgcBlock {
     background-color: #d7d7d7;

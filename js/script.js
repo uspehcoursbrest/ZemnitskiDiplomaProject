@@ -53,7 +53,33 @@ window.addEventListener('DOMContentLoaded', function () {
 $(document).ready(function () {
     var percent = $('.positionB3 .percent');
     percent.siblings().removeClass('select');
-    if (percent.click()) {
-        // percent.addClass('select');
-    }
+    percent.on('click', function () {
+        if (percent.siblings().hasClass('select'))
+            percent.siblings().removeClass('select');
+        $(this).addClass('select');
+    });
+
+    var marker = $('.strategy .marker button');
+    marker.removeClass('activ');
+    marker.on('click', function () {
+        if (marker.hasClass('activ')) {
+            marker.removeClass('activ');
+            $(this).addClass('activ');
+        } else {
+            $(this).addClass('activ');
+        }
+        ;
+    });
+
+    var DepositItem = $('.ContentDeposit .positionItems .activ');
+    DepositItem.siblings().removeClass('focus');
+    DepositItem.on('click', function () {
+        if (DepositItem.hasClass('focus')) {
+            DepositItem.removeClass('focus');
+            $(this).addClass('focus');
+        } else {
+            $(this).addClass('focus');
+        }
+    });
+
 });
