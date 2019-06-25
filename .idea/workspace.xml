@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3afa759-fcab-407c-ae2a-de17071393e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openDeposit.html" beforeDir="false" afterPath="$PROJECT_DIR$/openDeposit.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,14 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5024911">
+    <splitter split-orientation="horizontal" split-proportion="0.4911032">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="395">
-                  <caret line="345" column="44" selection-start-line="345" selection-start-column="44" selection-end-line="345" selection-end-column="44" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="74" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -45,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/openDeposit.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-557">
-                  <caret line="162" column="45" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="45" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
                   <folding>
                     <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -76,8 +73,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="550">
-                  <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+                <state relative-caret-position="496">
+                  <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -139,8 +136,8 @@
         <option value="$PROJECT_DIR$/img/openDeposit.html" />
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/openDeposit.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/openDeposit.html" />
       </list>
     </option>
   </component>
@@ -256,12 +253,12 @@
       <workItem from="1561010339539" duration="13296000" />
       <workItem from="1561104923932" duration="842000" />
       <workItem from="1561365378593" duration="9756000" />
-      <workItem from="1561405786253" duration="9830000" />
+      <workItem from="1561405786253" duration="12393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257031000" />
+    <option name="totallyTimeSpent" value="259594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -299,10 +296,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/openDeposit.html" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="2364" column="37" selection-start-line="2364" selection-end-line="2364" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="345" column="44" selection-start-line="345" selection-start-column="44" selection-end-line="345" selection-end-column="44" />
+        <state relative-caret-position="68">
+          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="74" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -319,10 +323,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/openDeposit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-557">
-          <caret line="162" column="45" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="45" />
+        <state relative-caret-position="408">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -332,20 +343,6 @@
             <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="2364" column="37" selection-start-line="2364" selection-end-line="2364" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
         </state>
       </provider>
     </entry>
