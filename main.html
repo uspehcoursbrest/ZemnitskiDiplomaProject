@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="fonts/icomoon1/style.css">
     <!--  стили  -->
+    <link rel="stylesheet" href="css/ion.rangeSlider.min.css">
     <link rel="stylesheet" href="css/selectric.css">
     <link rel="stylesheet" href="css/style.css">
     <!--  подключение криптовскрипты  -->
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.marquee.min.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
     <script src="js/jquery.selectric.min.js"></script>
     <script src="js/script.js"></script>
 </head>
@@ -27,15 +30,15 @@
                 <span class="date" id="date"></span>
             </div>
             <div class="language">
-<!--                <span class="icon-russia">-->
-<!--                    <span class="path1"></span>-->
-<!--                    <span class="path2"></span>-->
-<!--                    <span class="path3"></span>-->
-<!--                 </span>-->
+                <!--                <span class="icon-russia">-->
+                <!--                    <span class="path1"></span>-->
+                <!--                    <span class="path2"></span>-->
+                <!--                    <span class="path3"></span>-->
+                <!--                 </span>-->
                 <div class="selectBl">
                     <select name="lang" id="lang">
-                        <option value="RU">RU</option>
-                        <option value="EN">EN</option>
+                        <option value="russia">RU</option>
+                        <option value="engl">EN</option>
                     </select>
                 </div>
             </div>
@@ -218,12 +221,12 @@
                                 </div>
                             </div>
                             <div class="deposit positionDeposit">
-                                <div class="ante">
-                                    <span>2500$</span>
+                                <div class="ante range">
+                                    <!--                                    <span>2500$</span>-->
                                     <!--здесь в input должен быть полжунок для выбора диапазона кклада-->
-                                    <input type="text" id="">
-                                    <span>10$</span>
-                                    <span>100 000$</span>
+                                    <input type="text" class="rangeSum" id="rangeSum">
+                                    <!--                                    <span>10$</span>-->
+                                    <!--                                    <span>100 000$</span>-->
                                 </div>
                                 <div class="text-deposit">
                                     <span>Депозит включен Возврат в конце срока</span>
@@ -261,55 +264,77 @@
 <div class="rate">
     <div class="wraper">
         <div class="positionRate">
-            <div class="cours">
-                <span>BTC:</span>
-                <span class="icon-arrow-up"></span>
-                <span>888.63 $</span>
-            </div>
-            <div class="cours">
-                <span>LTC:</span>
-                <span class="icon-arrow-down"></span>
-                <span>3.82 $</span>
-            </div>
-            <div class="cours">
-                <span>DASH:</span>
-                <span class="icon-arrow-up"></span>
-                <span>14.61 $</span>
-            </div>
-            <div class="cours">
-                <span>XCP:</span>
-                <span class="icon-arrow-up"></span>
-                <span>2.01 $</span>
-            </div>
-            <div class="cours">
-                <span>NXT:</span>
-                <span class="icon-arrow-up"></span>
-                <span>0.005 $</span>
-            </div>
-            <div class="cours">
-                <span>PPC:</span>
-                <span class="icon-arrow-down"></span>
-                <span>0.28 $</span>
-            </div>
-            <div class="cours">
-                <span>XCP:</span>
-                <span class="icon-arrow-down"></span>
-                <span>2.01 $</span>
-            </div>
-            <div class="cours">
-                <span>NXT:</span>
-                <span class="icon-arrow-down"></span>
-                <span>0.005 $</span>
-            </div>
-            <div class="cours">
-                <span>PPC:</span>
-                <span class="icon-arrow-down"></span>
-                <span>0.28 $</span>
-            </div>
-            <div class="cours">
-                <span>PPC:</span>
-                <span class="icon-arrow-down"></span>
-                <span>0.28 $</span>
+            <div class="marquee">
+                <div class="js-marquee">
+                    <div class="cours">
+                        <span>BTC:</span>
+                        <span class="icon-arrow-up"></span>
+                        <span>888.63 $</span>
+                    </div>
+                </div>
+                <div class="js-marquee">
+                    <div class="cours">
+                        <span>LTC:</span>
+                        <span class="icon-arrow-down"></span>
+                        <span>3.82 $</span>
+                    </div>
+                </div>
+                <div class="js-marquee">
+                    <div class="cours">
+                        <span>DASH:</span>
+                        <span class="icon-arrow-up"></span>
+                        <span>14.61 $</span>
+                    </div>
+                </div>
+                <div class="js-marquee">
+                    <div class="cours">
+                        <span>XCP:</span>
+                        <span class="icon-arrow-up"></span>
+                        <span>2.01 $</span>
+                    </div>
+                </div>
+                <div class="js-marquee">
+                    <div class="cours">
+                        <span>NXT:</span>
+                        <span class="icon-arrow-up"></span>
+                        <span>0.005 $</span>
+                    </div>
+                </div>
+                <div class="js-marquee">
+                    <div class="cours">
+                        <span>PPC:</span>
+                        <span class="icon-arrow-down"></span>
+                        <span>0.28 $</span>
+                    </div>
+                </div>
+                <div class="js-marquee">
+                    <div class="cours">
+                        <span>XCP:</span>
+                        <span class="icon-arrow-down"></span>
+                        <span>2.01 $</span>
+                    </div>
+                </div>
+                <div class="js-marquee">
+                    <div class="cours">
+                        <span>NXT:</span>
+                        <span class="icon-arrow-down"></span>
+                        <span>0.005 $</span>
+                    </div>
+                </div>
+                <div class="js-marquee">
+                    <div class="cours">
+                        <span>PPC:</span>
+                        <span class="icon-arrow-down"></span>
+                        <span>0.28 $</span>
+                    </div>
+                </div>
+                <div class="js-marquee">
+                    <div class="cours">
+                        <span>PPC:</span>
+                        <span class="icon-arrow-down"></span>
+                        <span>0.28 $</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
