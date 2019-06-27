@@ -38,17 +38,17 @@ window.onload = function () {
 
 };
 
-window.addEventListener('DOMContentLoaded', function () {
-    var slider = document.querySelectorAll('#slaider .slide');
-    var currentSlide = 0;
-    var slideInterval = setInterval(nextSlide, 7000);
-
-    function nextSlide() {
-        slider[currentSlide].className = 'slide';
-        currentSlide = (currentSlide + 1) % slider.length;
-        slider[currentSlide].className = 'slide showing';
-    }
-});
+// window.addEventListener('DOMContentLoaded', function () {
+//     var slider = document.querySelectorAll('#slaider .slide');
+//     var currentSlide = 0;
+//     var slideInterval = setInterval(nextSlide, 7000);
+//
+//     function nextSlide() {
+//         slider[currentSlide].className = 'slide';
+//         currentSlide = (currentSlide + 1) % slider.length;
+//         slider[currentSlide].className = 'slide showing';
+//     }
+// });
 
 $(document).ready(function () {
     var percent = $('.positionB3 .percent');
@@ -68,7 +68,7 @@ $(document).ready(function () {
         } else {
             $(this).addClass('activ');
         }
-        ;
+
     });
 
     var DepositItem = $('.ContentDeposit .positionItems .activ');
@@ -79,6 +79,20 @@ $(document).ready(function () {
             $(this).addClass('focus');
         } else {
             $(this).addClass('focus');
+        }
+    });
+
+    $('select').selectric({
+        onInit: function () {
+var valRU = $('li[data-index = "0"]');
+            valRU.html('<span class="icon-russia"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>' + '<span>RU</span>');
+
+            // $('this').text().css({
+            //     "font-size": "14px",
+            //     "line-height": "36px",
+            //     "color": "#333333",
+            //     "font-weight": "800"
+            // });
         }
     });
 
