@@ -150,7 +150,6 @@ ul {
 .icon-russia .path2, .icon-russia .path3 {
     position: absolute;
     top: 0;
-    /*left: 28px;*/
 }
 
 .language .lang {
@@ -383,7 +382,6 @@ h1 {
 }
 
 .positionB3 .planPosition1 .percent .bgImg {
-    /*position: absolute;*/
     width: 105px;
     height: 30px;
     background-image: url(../img/png/bgiPercent.png);
@@ -507,11 +505,6 @@ h1 {
     -moz-border-radius: 0;
     border-radius: 0;
     background-color: #a5345c;
-}
-
-.positionDeposit .text-deposit span {
-    /*width: 260px;*/
-    /*margin-left: -60px;*/
 }
 
 .positionProfit > div {

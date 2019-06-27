@@ -86,21 +86,19 @@ $(document).ready(function () {
         onInit: function () {
             var valRU = $('li[data-index = "0"]');
             valRU.html('<span class="icon-russia"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>' + '<span>RU</span>');
-            // labelBuilder: valRU,
         },
     });
+
     $('#rangeSum').ionRangeSlider({
         // grid: true,
         min: 10,
         max: 100000,
         from:25000,
         step:10,
-        // grid_num: 16,
         postfix: " $",
-
     });
+
     $('.marquee').marquee({
-        //duration in milliseconds of the marquee
         duration: 15000,
         gap: 20,
         startVisible: true,
